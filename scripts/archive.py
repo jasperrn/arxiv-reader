@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 """Load/save the persistent data branch without modifying the source checkout.
 
-Used inside Actions. GIT authentication comes from actions/checkout's local config.
+Used inside Actions. Authentication uses the step's temporary GITHUB_TOKEN.
 Never force-push: concurrent changes fail visibly instead of losing archive data.
 """
 import argparse
+import base64
+import os
 from pathlib import Path
 import shutil
 import subprocess
 
 
 def git(*args, cwd=None, capture=False):
+    env = os.environ.copy()
+    token = env.pop('GITHUB_TOKEN', '')
+    if token:
+        # checkout v6 scopes its persisted credentials to the source checkout.
+        # Supply archive credentials in process environment, never argv or disk.
+        count = int(env.get('GIT_CONFIG_COUNT', '0'))
+        server = env.get('GITHUB_SERVER_URL', 'https://github.com').rstrip('/')
+        credential = base64.b64encode(('x-access-token:' + token).encode()).decode()
+        env[f'GIT_CONFIG_KEY_{count}'] = f'http.{server}/.extraheader'
+        env[f'GIT_CONFIG_VALUE_{count}'] = 'AUTHORIZATION: basic ' + credential
+        env['GIT_CONFIG_COUNT'] = str(count + 1)
+    env['GIT_TERMINAL_PROMPT'] = '0'
     return subprocess.run(['git', *args], cwd=cwd, check=True, text=True,
-                          stdout=subprocess.PIPE if capture else None).stdout
+                          env=env, stdout=subprocess.PIPE if capture else None).stdout
 
 
 def main():
@@ -23,7 +37,6 @@ def main():
     p.add_argument('--public', action='store_true', help='Require anonymous public-collector state before committing')
     args = p.parse_args()
     state = Path(args.state).resolve()
-    repo_config = Path(git('rev-parse', '--git-path', 'config', capture=True).strip()).resolve()
     remote = git('remote', 'get-url', 'origin', capture=True).strip()
     if args.action == 'load':
         if state.exists() and any(state.iterdir()):
@@ -31,9 +44,7 @@ def main():
         # An empty successful result means absent branch; network/auth failures raise.
         refs = git('ls-remote', '--heads', 'origin', 'refs/heads/' + args.branch, capture=True)
         git('init', '-b', args.branch, str(state))
-        git('config', 'include.path', str(repo_config), cwd=state)
-        git('config', 'core.bare', 'false', cwd=state)
-        # Included config supplies origin and Actions credentials, without copying secrets.
+        git('remote', 'add', 'origin', remote, cwd=state)
         if refs.strip():
             git('fetch', '--depth=1', 'origin', 'refs/heads/' + args.branch, cwd=state)
             git('reset', '--hard', 'FETCH_HEAD', cwd=state)

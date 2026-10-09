@@ -410,6 +410,26 @@ class PipelineTests(TestCase):
 
 
 class ArchiveGitTests(TestCase):
+    def test_token_is_scoped_and_never_written_to_command(self):
+        import os
+        import base64
+        from scripts import archive
+        with mock.patch.dict(os.environ, {'GITHUB_TOKEN': 'test-secret',
+                'GIT_CONFIG_COUNT': '1', 'GIT_CONFIG_KEY_0': 'test.existing',
+                'GIT_CONFIG_VALUE_0': 'retained'}, clear=True), \
+                mock.patch.object(archive.subprocess, 'run') as run:
+            archive.git('push', 'origin', 'HEAD:refs/heads/data', cwd='/tmp')
+        args, kwargs = run.call_args
+        self.assertNotIn('test-secret', repr(args))
+        env = kwargs['env']
+        self.assertNotIn('GITHUB_TOKEN', env)
+        self.assertEqual(env['GIT_CONFIG_COUNT'], '2')
+        self.assertEqual(env['GIT_CONFIG_VALUE_0'], 'retained')
+        self.assertEqual(env['GIT_CONFIG_KEY_1'], 'http.https://github.com/.extraheader')
+        encoded = env['GIT_CONFIG_VALUE_1'].split()[-1]
+        self.assertEqual(base64.b64decode(encoded).decode(), 'x-access-token:test-secret')
+        self.assertEqual(env['GIT_TERMINAL_PROMPT'], '0')
+
     def test_data_branch_roundtrip(self):
         script = str(Path('scripts/archive.py').resolve())
         with TemporaryDirectory() as tmp:
