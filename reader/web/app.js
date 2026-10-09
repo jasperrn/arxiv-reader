@@ -9,7 +9,7 @@ try { const saved = JSON.parse(localStorage.getItem(historyKey)); if (saved && s
 catch (_) { notice('Browser storage is unavailable. Reading history will last for this session only.'); }
 function save() { try { localStorage.setItem(historyKey, JSON.stringify(history)); } catch (_) { notice('Could not save browser history. You can export it using the button below.'); } }
 function link(text, url) { const a = node('a', text); a.href = url; return a; }
-function external(text, url, id) { const a = link(text, url); a.target = '_blank'; a.rel = 'noopener noreferrer'; if (id) a.addEventListener('click', () => { history.read[id] = new Date().toISOString(); save(); render(); }); return a; }
+function external(text, url) { const a = link(text, url); a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
 async function json(url) { const response = await fetch(url); if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`); return response.json(); }
 async function day(date) { if (!cache.has(date)) cache.set(date, await json(`data/${date}.json`)); return cache.get(date); }
 async function selectDay() {
@@ -46,13 +46,13 @@ function toggleButton(text, active, action) { const b = node('button', text); b.
 function renderPaper(p, index) {
   const read = !!history.read[p.id], bookmarked = !!history.bookmarks[p.id];
   const article = node('article', undefined, read ? 'read' : ''); article.dataset.id = p.id;
-  const top = node('div', undefined, 'paper-top'); top.append(node('span', `[${index + 1}]`, 'number'), external(`arXiv:${p.id}`, `https://arxiv.org/abs/${p.id}`, p.id), external('PDF', `https://arxiv.org/pdf/${p.id}`, p.id));
+  const top = node('div', undefined, 'paper-top'); top.append(node('span', `[${index + 1}]`, 'number'), external(`arXiv:${p.id}`, `https://arxiv.org/abs/${p.id}`), external('PDF', `https://arxiv.org/pdf/${p.id}`));
   if (p.inspire_id) top.append(external('INSPIRE', `https://inspirehep.net/literature/${p.inspire_id}`));
   const actions = node('span', undefined, 'actions');
   actions.append(toggleButton(bookmarked ? 'Bookmarked' : 'Bookmark', bookmarked, () => { if (bookmarked) delete history.bookmarks[p.id]; else history.bookmarks[p.id] = new Date().toISOString(); save(); render(); }),
     toggleButton(read ? 'Read' : 'Mark read', read, () => { if (read) delete history.read[p.id]; else history.read[p.id] = new Date().toISOString(); save(); render(); }));
   top.append(actions); article.append(top);
-  const title = node('h3'); title.append(external(p.title, `https://arxiv.org/abs/${p.id}`, p.id)); article.append(title);
+  const title = node('h3'); title.append(external(p.title, `https://arxiv.org/abs/${p.id}`)); article.append(title);
   const authors = node('p', undefined, 'authors');
   p.authors.forEach((a, i) => { if (i) authors.append(document.createTextNode(', ')); const e = node(a.followed ? 'mark' : 'span', a.name); if (a.followed) { e.title = a.match === 'confirmed' ? `Confirmed INSPIRE author ${a.inspire_id}` : 'Name or surname matched in the arXiv author list; identity not verified'; e.tabIndex = 0; e.setAttribute('aria-label', `${a.name}. ${e.title}`); } authors.append(e); });
   article.append(authors);
