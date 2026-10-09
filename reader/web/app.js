@@ -102,7 +102,8 @@ async function init() {
     const incomplete = manifest.days.filter(d => manifest.categories.some(c => !d.categories_captured.includes(c)));
     if (incomplete.length) coverage.append(node('p', `Partial category coverage: ${incomplete.map(d => d.date).join(', ')}`));
     if (manifest.status.warnings?.length) { const list = node('ul'); for (const warning of manifest.status.warnings) list.append(node('li', warning)); coverage.append(list); notice('Some sources could not be refreshed. Open “Archive coverage & citation status” for details.'); }
-    const options = manifest.days.map(d => { const o = node('option', `${d.date} · ${d.count} papers`); o.value = d.date; return o; });
+    // The manifest is newest-first; retain the complete archive for bookmarks.
+    const options = manifest.days.slice(0, 5).map(d => { const o = node('option', `${d.date} · ${d.count} papers`); o.value = d.date; return o; });
     const all = node('option', 'All archived dates'); all.value = 'all';
     $('date').replaceChildren(...options, all);
     $('date').addEventListener('change', selectDay);
