@@ -13,7 +13,7 @@ Browser settings can be entered through the form or imported from a JSON-compati
 | `followed_authors` | `[]` | List of author mappings, described below. |
 | `tracked_publications` | `[]` | List of identifier mappings, described below. |
 
-A followed-author entry must have a nonempty `name`. Optional `inspire_id` uses the same syntax as your author ID. Optional `aliases` is a list of explicit alternate spellings. Example:
+A followed-author entry must have a nonempty `name`. Optional `inspire_id` is accepted for compatibility but ignored for highlighting. Optional `aliases` is a list of explicit alternate spellings. Example:
 
 ```yaml
 followed_authors:
@@ -22,7 +22,7 @@ followed_authors:
     aliases: [Ed Witten, E. Witten]
 ```
 
-When INSPIRE links a paper author to the configured record, the highlight is confirmed. Mapping the feed's name to the linked record requires a normalized full-name match; surname-only or inferred-initial matching is deliberately avoided. The name is normalized for case, punctuation, and `Surname, Given` order. An exact configured name/alias without an authoritative linked identity is provisional. A linked, different identity suppresses a name match. Hover/focus context on the highlighted name distinguishes the two.
+Followed authors are matched directly against the arXiv author list, without INSPIRE author lookups. A surname is sufficient: `name: Witten` matches `Edward Witten` and `E. Witten`. Full names and aliases also work. Matching ignores case and punctuation, handles `Surname, Given` ordering, and requires complete trailing name tokens: `Chen` does not match `Cheng` or `Chen Li`. Compound surnames such as `de Sitter` are supported. All people with a matching surname are highlighted. Matches are provisional name matches, not verified identities. Existing optional `inspire_id` fields remain accepted for compatibility but do not affect highlighting.
 
 A tracked-publication entry contains **exactly one** key:
 

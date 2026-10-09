@@ -166,25 +166,35 @@ class AuthorTests(TestCase):
         self.followed = [{'name': 'Mira Chen', 'resolved_id': '42'}]
         self.meta = {'authors': [{'full_name': 'Chen, Mira', 'record': {'$ref': 'https://inspirehep.net/api/authors/42'}}]}
 
-    def test_confirmed_id(self):
+    def test_arxiv_name_match_ignores_id(self):
         authors = match_authors(self.authors, self.meta, self.followed)
-        self.assertEqual(authors[0]['match'], 'confirmed')
+        self.assertEqual(authors[0]['match'], 'provisional')
         self.assertFalse(authors[1]['followed'])
 
     def test_name_only_is_provisional(self):
         self.assertEqual(match_authors(self.authors, {}, self.followed)[0]['match'], 'provisional')
 
-    def test_known_different_id_not_highlighted(self):
+    def test_different_inspire_id_does_not_suppress_arxiv_match(self):
         self.followed[0]['resolved_id'] = '123'
-        self.assertFalse(match_authors(self.authors, self.meta, self.followed)[0]['followed'])
+        self.assertTrue(match_authors(self.authors, self.meta, self.followed)[0]['followed'])
 
     def test_explicit_alias(self):
         self.followed[0]['aliases'] = ['M. Chen']
         self.assertEqual(match_authors(self.authors, {}, self.followed)[1]['match'], 'provisional')
 
+    def test_surname_matches_arxiv_author_list_without_inspire(self):
+        authors = [{'name': n} for n in ['Mira Chen', 'M. Chen', 'Chen, Mira', 'Mira Cheng', 'Chen Li']]
+        result = match_authors(authors, {}, [{'name': 'chen', 'inspire_id': '999'}])
+        self.assertEqual([a['followed'] for a in result], [True, True, True, False, False])
+
+    def test_compound_surnames_and_aliases(self):
+        authors = [{'name': n} for n in ['Willem de Sitter', 'de Sitter, Willem', 'A. Smith-Jones', 'B. Joneson']]
+        result = match_authors(authors, {}, [{'name': 'de Sitter'}, {'name': 'Smith-Jones'}])
+        self.assertEqual([a['followed'] for a in result], [True, True, True, False])
+
     def test_id_without_name_guessing(self):
         self.followed[0]['name'] = 'A different spelling'
-        self.assertEqual(match_authors(self.authors, self.meta, self.followed)[0]['match'], 'confirmed')
+        self.assertFalse(match_authors(self.authors, self.meta, self.followed)[0]['followed'])
 
 
 class InspireTests(TestCase):
@@ -321,7 +331,7 @@ class PipelineTests(TestCase):
         papers = self.papers()
         self.assertEqual(len(papers), 4)
         self.assertEqual(len(papers[0]['announcements']), 2)
-        self.assertEqual(papers[0]['authors'][0]['match'], 'confirmed')
+        self.assertEqual(papers[0]['authors'][0]['match'], 'provisional')
         self.assertEqual(papers[0]['citation']['checked_at'], NOW.isoformat())
 
     def test_delayed_references_rechecked(self):

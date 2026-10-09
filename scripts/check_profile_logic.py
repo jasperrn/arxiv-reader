@@ -67,13 +67,15 @@ localStorage.setItem('arxiv-reader-profile-v1:/reader/',JSON.stringify(fixture))
         evaluate('''
 let applied=papers.map(ReaderProfile.apply);
 if(applied.map(p=>p.citation.status).join(',')!=='confirmed,provisional,checked,unavailable')throw new Error('Citation states wrong');
-if(applied[0].authors[0].match!=='confirmed')throw new Error('Linked author identity failed');
+if(applied[0].authors[0].match!=='provisional')throw new Error('arXiv author name match failed');
 if(applied[0].citation.matches.length!==2)throw new Error('Exact matched publications missing');
 elements['profile-clear'].events.click();
 if(ReaderProfile.apply(papers[0]).citation.matches.length)throw new Error('Matches survived clearing');
 if(Object.keys(storage).length)throw new Error('Settings survived clearing');
-elements['profile-followed'].value='Mira Chen';elements['profile-form'].events.submit({preventDefault(){}});
+elements['profile-followed'].value='Chen | 999';elements['profile-form'].events.submit({preventDefault(){}});
 if(ReaderProfile.apply(papers[0]).authors[0].match!=='provisional')throw new Error('Name-only matching failed');
+const surnamePaper={...papers[0],public_data:undefined,authors:[{name:'M. Chen'},{name:'Chen, Mira'},{name:'Cheng'},{name:'Chen Li'}]};
+if(ReaderProfile.apply(surnamePaper).authors.map(a=>!!a.followed).join(',')!=='true,true,false,false')throw new Error('Surname matching must use arXiv authors with whole-name boundaries');
 if(ReaderProfile.apply(papers[0]).citation.status!=='unconfigured')throw new Error('Missing configuration treated as a negative match');
 ''')
         print('PASS: JavaScript syntax and private-profile logic; no network requests')

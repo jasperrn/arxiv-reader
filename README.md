@@ -17,7 +17,7 @@ The site needs no shared password: two people can open the same URL and see diff
 
 1. Open **My private settings**.
 2. Enter your INSPIRE author ID or author-profile URL.
-3. Optionally add followed authors and extra tracked papers.
+3. Optionally add followed authors (one surname or full name per line) and extra tracked papers. Author highlighting checks the arXiv author list directly and needs no INSPIRE author ID.
 4. Choose **Save in this browser**.
 
 Your publications are retrieved from INSPIRE and cached locally. Each listing is matched against that bibliography in your browser. **Export private configuration** downloads one private YAML-compatible file containing your settings and cached bibliography. **Import private configuration** reads it locally; it does not upload it.
@@ -29,7 +29,7 @@ Author entries use `Name | INSPIRE ID | alias; alias`, one per line. A name alon
 - New submissions, cross-lists, replacements, and replacement cross-lists, with original announcement dates and per-category positions/types.
 - Deduplication by base arXiv identifier within a date. A later replacement can correctly appear on a later date.
 - Exact cited-publication titles, identifier evidence, and links. Confirmed, provisional, checked-without-a-match, and unavailable states are distinct.
-- Author highlighting using linked INSPIRE records where available; name-only matches remain provisional.
+- Author highlighting directly from arXiv author names; surnames, full names, and aliases are supported without INSPIRE author lookups.
 - Combined AND/OR filters, text search, sorting, collapsible abstracts/citation details, earlier dates, and an all-dates view.
 - Browser-local read/bookmark history, with export/import.
 - A persistent `data` Git branch holding ordinary public scholarly metadata; no dependence on expiring Actions artifacts for the archive.

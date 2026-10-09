@@ -147,7 +147,6 @@ const ReaderProfile = (() => {
         const [kind, value] = Object.entries(spec)[0];
         targets.push(target(await api((kind === 'inspire' ? 'literature' : kind) + '/' + value), 'tracked', spec));
       }
-      for (const a of followed) if (a.inspire_id) a.resolved_id = await resolveAuthor(a.inspire_id);
       if (ticket !== revision) return;
       resolved = {targets: combine(targets), followed, updated_at: new Date().toISOString()};
       persist(); changed(); status(`Private bibliography ready: ${resolved.targets.length} publications. Stored only in this browser.`);
@@ -171,17 +170,10 @@ const ReaderProfile = (() => {
     const bibliographyOld = !!resolved.updated_at && Date.now() - Date.parse(resolved.updated_at) > 86400000;
     p.citation = {status, matches, checked_at: data.checked_at, stale: !!data.stale || bibliographyOld, targets_complete: !bibliographyPending,
       references_available: data.references_available, reason: targetCount ? (data.references_available ? 'Reference metadata checked locally; absence of a match is not proof of no citation.' : 'Reference metadata is missing or empty; indexing may be delayed.') : (profile.inspire_author_id ? 'Your personal bibliography is not available yet. Refresh it or import a resolved private profile.' : 'Add private settings to track citations to your publications.')};
-    const followed = resolved.followed.length ? resolved.followed : profile.followed_authors;
-    const linked = new Map();
-    for (const item of data.authors) { const name = normalize(item.name); if (!linked.has(name)) linked.set(name, new Set()); if (item.id) linked.get(name).add(String(item.id)); }
+    const names = profile.followed_authors.flatMap(f => [f.name, ...(f.aliases || [])]).map(normalize).filter(Boolean);
     for (const a of p.authors) {
       const name = normalize(a.name);
-      const ids = [...(linked.get(name) || [])];
-      for (const f of followed) {
-        const rid = f.resolved_id || (/^\d+$/.test(f.inspire_id || '') ? f.inspire_id : null);
-        if (rid && ids.length === 1 && ids[0] === String(rid)) { Object.assign(a, {followed: true, match: 'confirmed', inspire_id: rid}); break; }
-        if ([f.name, ...(f.aliases || [])].some(n => normalize(n) === name) && !(rid && ids.length && !ids.includes(String(rid)))) Object.assign(a, {followed: true, match: 'provisional'});
-      }
+      if (names.some(n => name === n || name.endsWith(' ' + n))) Object.assign(a, {followed: true, match: 'provisional'});
     }
     return p;
   }

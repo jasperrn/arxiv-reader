@@ -120,26 +120,19 @@ def normalize_name(value):
 
 
 def match_authors(authors, metadata, followed):
-    """Never infer a record ID from initials or from surname-only similarity."""
-    linked = {}
-    for item in metadata.get('authors', []):
-        name = normalize_name(item.get('full_name', ''))
-        rid = record_id(item.get('record', {}).get('$ref', ''))
-        if name and rid:
-            linked.setdefault(name, set()).add(rid)
+    """Match names/surnames directly against arXiv authors, independent of INSPIRE.
+
+    Whole trailing tokens support both surnames and full names. These are name
+    matches, not identity verification; metadata is retained for API compatibility.
+    """
+    names = {normalize_name(n) for f in followed for n in [f['name']] + f.get('aliases', [])}
+    names.discard('')
     result = []
     for author in authors:
         current = {'name': author['name'], 'followed': False}
         normalized = normalize_name(author['name'])
-        candidates = linked.get(normalized, set())
-        for follow in followed:
-            rid = follow.get('resolved_id')
-            name_match = normalized in {normalize_name(n) for n in [follow['name']] + follow.get('aliases', [])}
-            if rid and str(rid) in candidates and len(candidates) == 1:
-                current.update(followed=True, match='confirmed', inspire_id=str(rid))
-                break
-            if name_match and not (rid and candidates and str(rid) not in candidates):
-                current.update(followed=True, match='provisional')
+        if any(normalized == n or normalized.endswith(' ' + n) for n in names):
+            current.update(followed=True, match='provisional')
         result.append(current)
     return result
 

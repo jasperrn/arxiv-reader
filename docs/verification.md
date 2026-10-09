@@ -8,7 +8,7 @@ Local verification on 2026-10-09, Python 3.14.4 and PyYAML 6.0.3:
 - Configuration validation passed for the checked-in example.
 - Offline demonstration build passed; generated manifest and two day payloads passed `check-site`.
 - Python source compiled successfully; an installable wheel was built successfully without network access.
-- Both frontend JavaScript files passed syntax checks in JavaScriptCore. The private-profile matching logic was executed in JavaScriptCore with a minimal test DOM/storage: confirmed/provisional citation matching, linked/name-only author matching, settings clearing, and cached offline use passed. These checks are repeatable with `python scripts/check_profile_logic.py` and run in the unit suite when JavaScriptCore is installed. They are not a substitute for real browser/layout tests.
+- Both frontend JavaScript files passed syntax checks in JavaScriptCore. The private-profile matching logic was executed in JavaScriptCore with a minimal test DOM/storage: confirmed/provisional citation matching, arXiv surname/full-name author matching, settings clearing, and cached offline use passed. These checks are repeatable with `python scripts/check_profile_logic.py` and run in the unit suite when JavaScriptCore is installed. They are not a substitute for real browser/layout tests.
 - Privacy regression tests verify that public collection rejects personal settings/state, public output strips personal fields, staged source excludes private files, and private exports have restrictive file permissions.
 - The live collector was attempted and correctly reported network unavailability rather than pretending to fetch announcements. Its saved failure status can still be built into a valid empty/stale site.
 

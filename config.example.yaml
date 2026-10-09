@@ -3,7 +3,7 @@ categories: [hep-ph, hep-th]  # Any arXiv category codes; order determines merge
 inspire_author_id: null     # Set your numeric INSPIRE author ID locally.
 followed_authors: []
 # - name: Edward Witten
-#   inspire_id: E.Witten.1   # Preferred: names are confirmed only through linked author records.
+#   inspire_id: E.Witten.1   # Optional legacy field; highlighting uses arXiv names only.
 #   aliases: [Ed Witten]    # Optional exact spelling variants for provisional name matches.
 tracked_publications: []
 # - arxiv: hep-th/9711200

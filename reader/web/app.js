@@ -54,7 +54,7 @@ function renderPaper(p, index) {
   top.append(actions); article.append(top);
   const title = node('h3'); title.append(external(p.title, `https://arxiv.org/abs/${p.id}`, p.id)); article.append(title);
   const authors = node('p', undefined, 'authors');
-  p.authors.forEach((a, i) => { if (i) authors.append(document.createTextNode(', ')); const e = node(a.followed ? 'mark' : 'span', a.name); if (a.followed) { e.title = a.match === 'confirmed' ? `Confirmed INSPIRE author ${a.inspire_id}` : 'Provisional: exact name match; identity not confirmed'; e.tabIndex = 0; e.setAttribute('aria-label', `${a.name}. ${e.title}`); } authors.append(e); });
+  p.authors.forEach((a, i) => { if (i) authors.append(document.createTextNode(', ')); const e = node(a.followed ? 'mark' : 'span', a.name); if (a.followed) { e.title = a.match === 'confirmed' ? `Confirmed INSPIRE author ${a.inspire_id}` : 'Name or surname matched in the arXiv author list; identity not verified'; e.tabIndex = 0; e.setAttribute('aria-label', `${a.name}. ${e.title}`); } authors.append(e); });
   article.append(authors);
   const meta = node('div', undefined, 'meta');
   for (const a of p.announcements) meta.append(node('span', `${a.category} · ${a.type}`, 'badge'));

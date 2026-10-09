@@ -47,13 +47,6 @@ def resolve_targets(config, inspire, state, warnings):
             if previous.get('signature') == signature:
                 targets += [t for t in previous.get('targets', []) if set(t['identifiers']) & set(targets[-1]['identifiers'])]
     followed = deepcopy(config['followed_authors'])
-    for author in followed:
-        if author.get('inspire_id'):
-            try:
-                author['resolved_id'] = inspire.resolve_author(author['inspire_id'])
-            except (FetchError, KeyError, TypeError, ValueError) as exc:
-                warnings.append(f'Followed author {author["name"]}: {exc}; exact-name matches remain provisional')
-                complete = False
     targets = combine_targets(targets)
     write_json(path, {'signature': signature, 'targets': targets})
     return targets, followed, complete
@@ -146,7 +139,7 @@ def update(config, state='state', client=None, feed_files=None, recheck_all=Fals
         previous = paper.get('citation', {})
         checked += 1
         try:
-            record = inspire.paper('arxiv', paper['id']) if public or targets or followed else None
+            record = inspire.paper('arxiv', paper['id']) if public or targets else None
             meta = record.get('metadata', {}) if record else {}
             bibliography = None
             bib_note = previous.get('bibliography')
