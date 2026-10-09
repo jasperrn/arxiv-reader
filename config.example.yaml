@@ -1,0 +1,27 @@
+# PUBLIC hosting defaults. Keep personal fields empty; visitors configure them privately in their browser.
+categories: [hep-ph, hep-th]  # Any arXiv category codes; order determines merged feed order.
+inspire_author_id: null     # Set your numeric INSPIRE author ID locally.
+followed_authors: []
+# - name: Edward Witten
+#   inspire_id: E.Witten.1   # Preferred: names are confirmed only through linked author records.
+#   aliases: [Ed Witten]    # Optional exact spelling variants for provisional name matches.
+tracked_publications: []
+# - arxiv: hep-th/9711200
+# - doi: 10.1103/PhysRevLett.19.1264
+# - inspire: '451647'
+
+display:
+  title: My arXiv reader
+  abstracts_expanded: false
+  citation_details_expanded: false
+  show_replacements: true
+  default_sort: announcement  # announcement, title, citations
+
+updates:
+  recheck_days: 30
+  metadata_ttl_hours: 24
+  missing_ttl_hours: 6
+  max_papers_per_run: 400   # Finite API budget; unchecked/oldest-checked papers go first.
+  bibliography_check: true # Check identifiers in arXiv HTML bibliography, when available.
+  max_bibliographies_per_run: 20
+  user_agent: arxiv-daily-reader/1.0 (personal research reader)

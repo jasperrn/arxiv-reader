@@ -1,0 +1,1 @@
+"""Personal arXiv daily reader."""

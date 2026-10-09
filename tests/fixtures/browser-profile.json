@@ -1,0 +1,79 @@
+{
+  "_reader_cache": {
+    "followed": [
+      {
+        "inspire_id": "42",
+        "name": "Mira Chen",
+        "resolved_id": "42"
+      }
+    ],
+    "targets": [
+      {
+        "groups": [
+          "mine"
+        ],
+        "identifiers": [
+          "arxiv:2001.00001",
+          "doi:10.1234/demo",
+          "inspire:100"
+        ],
+        "key": "inspire:100",
+        "links": [
+          {
+            "label": "arxiv:2001.00001",
+            "url": "https://arxiv.org/abs/2001.00001"
+          },
+          {
+            "label": "doi:10.1234/demo",
+            "url": "https://doi.org/10.1234/demo"
+          },
+          {
+            "label": "inspire:100",
+            "url": "https://inspirehep.net/literature/100"
+          }
+        ],
+        "resolved": true,
+        "title": "A framework for scattering amplitudes (demo)"
+      },
+      {
+        "groups": [
+          "tracked"
+        ],
+        "identifiers": [
+          "arxiv:2101.00002",
+          "inspire:200"
+        ],
+        "key": "inspire:200",
+        "links": [
+          {
+            "label": "arxiv:2101.00002",
+            "url": "https://arxiv.org/abs/2101.00002"
+          },
+          {
+            "label": "inspire:200",
+            "url": "https://inspirehep.net/literature/200"
+          }
+        ],
+        "resolved": true,
+        "title": "Geometric methods in field theory (demo)"
+      }
+    ],
+    "updated_at": "2026-10-09T12:00:00+00:00"
+  },
+  "categories": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "followed_authors": [
+    {
+      "inspire_id": "42",
+      "name": "Mira Chen"
+    }
+  ],
+  "inspire_author_id": "42",
+  "tracked_publications": [
+    {
+      "inspire": "200"
+    }
+  ]
+}

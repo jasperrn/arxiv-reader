@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal daily arXiv listing, with citation evidence and followed authors.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https://inspirehep.net; img-src 'self' data:; object-src 'none'; base-uri 'self'">
+  <title>{{TITLE}}</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="profile.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#papers">Skip to papers</a>
+<header><div class="masthead"><span class="wordmark">arXiv <span>reader</span></span><span class="edition">YOUR DAILY RESEARCH DESK</span></div>
+  <h1>{{TITLE}}</h1><p id="categories">Personal announcement archive</p>
+</header>
+<main>
+  <details id="private-settings" class="private-settings" hidden>
+    <summary>My private settings</summary>
+    <p>These settings stay in this browser. They are not uploaded to this website or GitHub. Publication lookups go directly to INSPIRE. No account is required.</p>
+    <form id="profile-form">
+      <label for="profile-author">My INSPIRE author ID or author-profile URL</label>
+      <input id="profile-author" type="text" autocomplete="off" placeholder="Your numeric author ID or BAI">
+      <label for="profile-categories">Categories to show (comma-separated; empty means all collected categories)</label>
+      <input id="profile-categories" type="text" autocomplete="off" placeholder="hep-ph, hep-th">
+      <label for="profile-followed">Followed authors: one per line, as Name | INSPIRE ID | alias; alias</label>
+      <textarea id="profile-followed" rows="3" placeholder="Name only is also accepted"></textarea>
+      <label for="profile-tracked">Additional papers: one per line, as arxiv:ID, doi:DOI, or inspire:ID</label>
+      <textarea id="profile-tracked" rows="3"></textarea>
+      <button type="submit">Save in this browser</button>
+      <button id="profile-refresh" type="button">Refresh my bibliography</button>
+    </form>
+    <p id="profile-status" role="status"></p>
+    <button id="profile-export" type="button">Export private configuration</button>
+    <label class="import">Import private configuration<input id="profile-import" type="file" accept=".yaml,.yml,.json,application/json"></label>
+    <button id="profile-clear" type="button">Clear personal settings</button>
+  </details>
+  <section class="toolbar" aria-label="Browse and search">
+    <label>Announcement date<select id="date"><option>Loading…</option></select></label>
+    <label class="search">Search this selection<input id="search" type="search" placeholder="Title, author, abstract, arXiv ID…"></label>
+    <label>Sort by<select id="sort"><option value="announcement">Announcement order</option><option value="title">Title A–Z</option><option value="citations">Tracked citations</option></select></label>
+  </section>
+  <fieldset class="filters"><legend>Show papers matching</legend>
+    <label><input type="checkbox" id="mine">Cites my work</label>
+    <label><input type="checkbox" id="tracked">Cites tracked papers</label>
+    <label><input type="checkbox" id="followed">Followed authors</label>
+    <label><input type="checkbox" id="bookmarked">Bookmarked</label>
+    <label><input type="checkbox" id="unread">Unread</label>
+    <label>Combine<select id="combine"><option value="all">All filters (AND)</option><option value="any">Any filter (OR)</option></select></label>
+  </fieldset>
+  <div class="options">
+    <label><input type="checkbox" id="provisional" checked>Include provisional citations</label>
+    <label><input type="checkbox" id="replacements" checked>Include replacements</label>
+    <button id="expand" type="button">Expand abstracts</button>
+    <button id="collapse" type="button">Collapse abstracts</button>
+  </div>
+  <p id="notice" role="status" class="notice" hidden></p>
+  <details class="coverage"><summary>Archive coverage &amp; citation status</summary><div id="coverage"></div>
+    <p>Confirmed = structured INSPIRE reference. Provisional = explicit identifier in an unstructured reference or HTML bibliography. Unavailable = absent or empty reference metadata. No detected match does not prove that a paper contains no citation.</p>
+    <p>Name-only author matches are provisional. Reading history and bookmarks stay in this browser. No account or analytics.</p>
+  </details>
+  <div class="listing-heading"><h2 id="day-title">Daily announcements</h2><span id="count" aria-live="polite"></span></div>
+  <section id="papers" aria-label="Papers" aria-live="polite"><p>Loading the archive…</p></section>
+  <noscript>This reader requires JavaScript. Daily data is also available as JSON in the data directory.</noscript>
+</main>
+<footer><p>An independent, self-hosted reader. Metadata from <a href="https://arxiv.org">arXiv</a> and <a href="https://inspirehep.net">INSPIRE-HEP</a>. Not affiliated with either service.</p>
+  <button id="export" type="button">Export bookmarks &amp; history</button>
+  <label class="import">Import history<input id="import" type="file" accept="application/json"></label><span id="updated"></span>
+</footer>
+</body>
+</html>

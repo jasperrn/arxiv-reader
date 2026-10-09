@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-daily-reader"
+version = "1.0.0"
+description = "A self-hosted daily arXiv reader with transparent citation tracking"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0.2,<7"]
+license = "MIT"
+
+[project.scripts]
+arxiv-reader = "reader.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["reader*"]
+
+[tool.setuptools.package-data]
+reader = ["web/*"]

@@ -1,0 +1,75 @@
+name: Update and publish reader
+on:
+  schedule:
+    # Feed collection plus retries; UTC, away from the top-of-hour rush.
+    - cron: '23 5,11,17 * * *'
+  workflow_dispatch:
+    inputs:
+      recheck_all:
+        description: Recheck older papers too (normal request budget still applies)
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', 'LICENSE', 'CONTRIBUTING.md']
+
+permissions:
+  contents: read
+concurrency:
+  group: daily-reader
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python -m reader --config config.example.yaml validate
+      - name: Restore persistent archive
+        run: python scripts/archive.py load
+      - name: Capture announcements and recheck citations
+        id: update
+        continue-on-error: true
+        env:
+          RECHECK_ALL: ${{ inputs.recheck_all }}
+        run: |
+          args=()
+          if [[ "$RECHECK_ALL" == 'true' ]]; then args+=(--recheck-all); fi
+          python -m reader --config config.example.yaml update --public "${args[@]}"
+      - name: Save archive before deployment
+        if: always() && steps.update.outcome != 'skipped' && steps.update.outcome != ''
+        run: python scripts/archive.py save --public
+      - name: Build site
+        run: |
+          python -m reader --config config.example.yaml build --public
+          python -m reader check-site
+      - name: Browser checks
+        run: python scripts/browser_test.py --site site --smoke
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Report collection failure
+        if: steps.update.outcome == 'failure'
+        run: echo '::warning::Collection failed. Saved archive is being published; inspect the collection logs.'
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

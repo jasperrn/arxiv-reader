@@ -1,0 +1,27 @@
+name: Test
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13', '3.14']
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python -m reader --config config.example.yaml validate
+      - run: python -m reader --output site demo
+      - run: python -m reader check-site
+      - run: python scripts/browser_test.py --site site
+      - run: python -m reader --output site-public demo --public
+      - run: python scripts/browser_test.py --site site-public --profile-fixture tests/fixtures/browser-profile.json

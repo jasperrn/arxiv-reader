@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+site/
+state/
+.demo/
+.browser-test/
+
+# Personal configuration and profile exports must never be committed.
+/config.yaml
+*.private.log
+
+/private-profile.yaml
+/private-profile.json
+
+site-public/
