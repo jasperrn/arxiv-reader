@@ -62,6 +62,14 @@ FULL = r'''
  const first = document.querySelector('article'); first.querySelector('.actions button').click();
  change('bookmarked', true); assert(count() === 1, 'Bookmark filter');
  assert(JSON.parse(localStorage.getItem('arxiv-reader-history-v1')).bookmarks['2610.00001'], 'Bookmark not persisted');
+ for (const selector of ['a[href*="/pdf/"]', '.paper-top a[href*="/abs/"]', 'h3 a']) {
+   const paperLink = document.querySelector('article').querySelector(selector);
+   // Prevent navigation only; registered click handlers must still execute.
+   paperLink.addEventListener('click', event => event.preventDefault(), {once: true});
+   paperLink.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true}));
+   assert(!JSON.parse(localStorage.getItem('arxiv-reader-history-v1')).read['2610.00001'], 'Opening a paper link must not mark it read');
+   assert(document.querySelector('.actions button:nth-child(2)').textContent === 'Mark read', 'Opening a paper link changed the read button');
+ }
  document.querySelector('.actions button:nth-child(2)').click();
  change('unread', true); assert(count() === 0, 'Read tracking');
  change('unread', false); change('bookmarked', false);
