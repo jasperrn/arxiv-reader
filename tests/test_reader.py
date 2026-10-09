@@ -423,12 +423,68 @@ class ArchiveGitTests(TestCase):
         self.assertNotIn('test-secret', repr(args))
         env = kwargs['env']
         self.assertNotIn('GITHUB_TOKEN', env)
-        self.assertEqual(env['GIT_CONFIG_COUNT'], '2')
+        self.assertEqual(env['GIT_CONFIG_COUNT'], '3')
         self.assertEqual(env['GIT_CONFIG_VALUE_0'], 'retained')
         self.assertEqual(env['GIT_CONFIG_KEY_1'], 'http.https://github.com/.extraheader')
-        encoded = env['GIT_CONFIG_VALUE_1'].split()[-1]
+        self.assertEqual(env['GIT_CONFIG_VALUE_1'], '')
+        self.assertEqual(env['GIT_CONFIG_KEY_2'], env['GIT_CONFIG_KEY_1'])
+        encoded = env['GIT_CONFIG_VALUE_2'].split()[-1]
         self.assertEqual(base64.b64decode(encoded).decode(), 'x-access-token:test-secret')
         self.assertEqual(env['GIT_TERMINAL_PROMPT'], '0')
+
+    def test_existing_checkout_header_is_reset_in_real_git_config(self):
+        import os
+        from scripts import archive
+        with TemporaryDirectory() as tmp:
+            subprocess.run(['git', 'init', '-q', tmp], check=True)
+            key = 'http.https://github.com/.extraheader'
+            subprocess.run(['git', 'config', key, 'AUTHORIZATION: basic old'], cwd=tmp, check=True)
+            with mock.patch.dict(os.environ, {'GITHUB_TOKEN': 'test-secret'}):
+                values = archive.git('config', '--get-all', key, cwd=tmp, capture=True).splitlines()
+            self.assertEqual(values[0], 'AUTHORIZATION: basic old')
+            self.assertEqual(values[1], '')
+            self.assertTrue(values[2].startswith('AUTHORIZATION: basic '))
+            self.assertEqual(len(values), 3)
+            # Process-only override leaves the checkout credential untouched.
+            stored = subprocess.check_output(['git', 'config', '--local', '--get-all', key], cwd=tmp, text=True)
+            self.assertEqual(stored.strip(), 'AUTHORIZATION: basic old')
+
+    def test_http_request_sends_exactly_one_authorization_header(self):
+        import os
+        import base64
+        import threading
+        from http.server import BaseHTTPRequestHandler, HTTPServer
+        from scripts import archive
+        received = []
+        class Handler(BaseHTTPRequestHandler):
+            def do_GET(self):
+                received.append(self.headers.get_all('Authorization', []))
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/x-git-upload-pack-advertisement')
+                self.end_headers()
+                self.wfile.write(b'001e# service=git-upload-pack\n00000000')
+            def log_message(self, *args):
+                pass
+        try:
+            server = HTTPServer(('127.0.0.1', 0), Handler)
+        except PermissionError:
+            self.skipTest('Sandbox forbids listening sockets; HTTP regression runs in CI')
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        try:
+            with TemporaryDirectory() as tmp:
+                url = f'http://127.0.0.1:{server.server_port}'
+                subprocess.run(['git', 'init', '-q', tmp], check=True)
+                subprocess.run(['git', 'config', f'http.{url}/.extraheader',
+                                'AUTHORIZATION: basic old'], cwd=tmp, check=True)
+                with mock.patch.dict(os.environ, {'GITHUB_TOKEN': 'test-secret', 'GITHUB_SERVER_URL': url}):
+                    archive.git('ls-remote', url + '/repo', cwd=tmp, capture=True)
+                expected = 'AUTHORIZATION: basic ' + base64.b64encode(b'x-access-token:test-secret').decode()
+                self.assertEqual(received, [[expected.split(': ', 1)[1]]])
+        finally:
+            server.shutdown()
+            server.server_close()
+            thread.join(timeout=5)
 
     def test_data_branch_roundtrip(self):
         script = str(Path('scripts/archive.py').resolve())

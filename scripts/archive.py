@@ -21,9 +21,13 @@ def git(*args, cwd=None, capture=False):
         count = int(env.get('GIT_CONFIG_COUNT', '0'))
         server = env.get('GITHUB_SERVER_URL', 'https://github.com').rstrip('/')
         credential = base64.b64encode(('x-access-token:' + token).encode()).decode()
+        # extraHeader is multi-valued: adding Authorization does not replace
+        # checkout's existing header. An empty entry resets the inherited list.
         env[f'GIT_CONFIG_KEY_{count}'] = f'http.{server}/.extraheader'
-        env[f'GIT_CONFIG_VALUE_{count}'] = 'AUTHORIZATION: basic ' + credential
-        env['GIT_CONFIG_COUNT'] = str(count + 1)
+        env[f'GIT_CONFIG_VALUE_{count}'] = ''
+        env[f'GIT_CONFIG_KEY_{count + 1}'] = f'http.{server}/.extraheader'
+        env[f'GIT_CONFIG_VALUE_{count + 1}'] = 'AUTHORIZATION: basic ' + credential
+        env['GIT_CONFIG_COUNT'] = str(count + 2)
     env['GIT_TERMINAL_PROMPT'] = '0'
     return subprocess.run(['git', *args], cwd=cwd, check=True, text=True,
                           env=env, stdout=subprocess.PIPE if capture else None).stdout
