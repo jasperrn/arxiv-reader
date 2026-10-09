@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Actual Chrome DOM/integration tests using only the Python standard library."""
+import base64
 import argparse
 import json
 from html.parser import HTMLParser
@@ -10,6 +11,10 @@ import shutil
 import subprocess
 import tempfile
 import threading
+try:
+    from .chrome_pipe import ChromePipe, wait_for_result
+except ImportError:
+    from chrome_pipe import ChromePipe, wait_for_result
 
 SMOKE = r'''
 const assert = (value, message) => { if (!value) throw new Error(message); };
@@ -161,19 +166,29 @@ def main():
             for width in (1280, 390):
                 command = [chrome, '--headless', '--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage', '--disable-background-networking',
                            '--no-first-run', '--no-default-browser-check', '--hide-scrollbars', f'--user-data-dir={root / ("profile-" + str(width))}',
-                           f'--window-size={width},1000', '--virtual-time-budget=15000', '--dump-dom']
-                if args.screenshots:
-                    dest = Path(args.screenshots).resolve()
-                    dest.mkdir(parents=True, exist_ok=True)
-                    command.append(f'--screenshot={dest / (str(width) + ".png")}')
-                command.append(f'http://127.0.0.1:{server.server_port}/reader/')
-                result = subprocess.run(command, text=True, capture_output=True, timeout=60)
-                outcome = BrowserResult(result.stdout)
-                if result.returncode or not outcome.success:
-                    print(result.stdout[-5000:])
-                    print(result.stderr[-3000:])
-                    detail = ''.join(outcome.messages) or 'No completion result: browser checks did not finish within the execution budget.'
-                    raise SystemExit(f'Browser tests failed at {width}px (Chrome exit {result.returncode}):\n{detail}')
+                           f'--window-size={width},1000']
+                with tempfile.TemporaryFile(mode='w+b') as logs:
+                    browser = ChromePipe(command, logs)
+                    try:
+                        target = browser.call('Target.createTarget', {'url': 'about:blank'})['targetId']
+                        session = browser.call('Target.attachToTarget', {'targetId': target, 'flatten': True})['sessionId']
+                        browser.call('Emulation.setDeviceMetricsOverride', {'width': width, 'height': 1000, 'deviceScaleFactor': 1, 'mobile': False}, session)
+                        browser.call('Page.navigate', {'url': f'http://127.0.0.1:{server.server_port}/reader/'}, session)
+                        dom = wait_for_result(browser, session)
+                        outcome = BrowserResult(dom)
+                        if not outcome.success:
+                            raise RuntimeError(''.join(outcome.messages) or 'Browser test returned no assertion details')
+                        if args.screenshots:
+                            dest = Path(args.screenshots).resolve()
+                            dest.mkdir(parents=True, exist_ok=True)
+                            shot = browser.call('Page.captureScreenshot', {'format': 'png'}, session)
+                            (dest / (str(width) + '.png')).write_bytes(base64.b64decode(shot['data']))
+                    except (RuntimeError, TimeoutError, OSError) as exc:
+                        logs.seek(0)
+                        print(logs.read().decode(errors='replace')[-3000:])
+                        raise SystemExit(f'Browser tests failed at {width}px: {exc}') from exc
+                    finally:
+                        browser.close()
                 print(f'PASS: Chrome {width}px, repository subpath, ' + ('smoke checks' if args.smoke else 'filters, search, sorting, citations, history, dates, responsive layout'))
         finally:
             server.shutdown()

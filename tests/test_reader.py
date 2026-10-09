@@ -429,6 +429,37 @@ class PipelineTests(TestCase):
 
 
 class BrowserDiagnosticTests(TestCase):
+    def test_chrome_pipe_transport_handles_events_and_split_messages(self):
+        import tempfile
+        from scripts.chrome_pipe import ChromePipe
+        child = '''import os,json,time
+with os.fdopen(3, 'rb', buffering=0) as source:
+ data=b''
+ while not data.endswith(b'\\0'):
+  data+=source.read(1)
+ request=json.loads(data[:-1])
+ os.write(4,b'{"method":"event"}\\0')
+ response=json.dumps({'id':request['id'],'result':{'session':request['sessionId']}}).encode()+b'\\0'
+ os.write(4,response[:7]); time.sleep(.02); os.write(4,response[7:])
+ time.sleep(5)
+'''
+        with tempfile.TemporaryFile() as logs:
+            browser = ChromePipe([sys.executable, '-c', child], logs)
+            try:
+                self.assertEqual(browser.call('Runtime.evaluate', session='test-session'), {'session': 'test-session'})
+            finally:
+                browser.close()
+
+    def test_browser_waits_until_async_work_reports_completion(self):
+        from scripts.chrome_pipe import wait_for_result
+        browser = mock.Mock()
+        browser.call.side_effect = [
+            {'result': {'value': json.dumps({'finished': False, 'html': 'pending'})}},
+            {'result': {'value': json.dumps({'finished': True, 'html': 'completed'})}}]
+        with mock.patch('scripts.chrome_pipe.time.sleep'):
+            self.assertEqual(wait_for_result(browser, 'session'), 'completed')
+        self.assertEqual(browser.call.call_count, 2)
+
     def test_assertion_is_extracted_from_large_dom(self):
         from scripts.browser_test import BrowserResult
         result = BrowserResult('<main>' + 'paper ' * 2000 + '</main>'
