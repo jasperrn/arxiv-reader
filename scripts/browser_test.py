@@ -2,6 +2,7 @@
 """Actual Chrome DOM/integration tests using only the Python standard library."""
 import argparse
 import json
+from html.parser import HTMLParser
 from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
@@ -13,6 +14,17 @@ import threading
 SMOKE = r'''
 const assert = (value, message) => { if (!value) throw new Error(message); };
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+// Observe completion instead of sleeping: Chrome's virtual clock can advance
+// through a timer while a File.text() read is still pending on real I/O.
+function waitForDOM(predicate) {
+  if (predicate()) return Promise.resolve();
+  return new Promise(resolve => {
+    const observer = new MutationObserver(() => {
+      if (predicate()) { observer.disconnect(); resolve(); }
+    });
+    observer.observe(document.documentElement, {subtree: true, childList: true, attributes: true, characterData: true});
+  });
+}
 async function loaded() {
   for (let i = 0; i < 100; i++) { if (document.querySelector('#papers').dataset.ready === 'true' && document.querySelector('#count').textContent.includes('papers')) return; await pause(50); }
   throw new Error('App did not finish rendering');
@@ -54,8 +66,8 @@ FULL = r'''
  change('unread', true); assert(count() === 0, 'Read tracking');
  change('unread', false); change('bookmarked', false);
  assert(JSON.parse(localStorage.getItem('arxiv-reader-history-v1')).read['2610.00001'], 'Reading history not persisted');
- change('date', '2026-10-08'); await pause(300); assert(count() === 1, 'Previous announcement date');
- change('date', 'all'); await pause(300); assert(count() === 4, 'All-date deduplication');
+ change('date', '2026-10-08'); await loaded(); assert(count() === 1, 'Previous announcement date');
+ change('date', 'all'); await loaded(); assert(count() === 4, 'All-date deduplication');
  if (window.testProfile) {
    assert(!document.getElementById('private-settings').hidden, 'Private settings form missing');
    document.getElementById('profile-clear').click();
@@ -64,8 +76,8 @@ FULL = r'''
    change('mine', true); assert(count() === 0, 'Old citation matches survived clearing'); change('mine', false);
    const transfer = new DataTransfer(); transfer.items.add(new File([JSON.stringify(window.testProfile)], 'private-profile.yaml', {type:'application/yaml'}));
    const input = document.getElementById('profile-import'); input.files = transfer.files; input.dispatchEvent(new Event('change'));
-   await pause(300);
-   assert(document.getElementById('profile-author').value === '42', 'Private file import failed');
+   await waitForDOM(() => /^(Private configuration imported locally\.|Import failed:)/.test(document.getElementById('profile-status').textContent));
+   assert(document.getElementById('profile-author').value === '42', 'Private file import failed: ' + document.getElementById('profile-status').textContent);
    change('mine', true); assert(count() === 1, 'Private citation matching after import'); change('mine', false);
    assert(window.requestedURLs.every(url => url.startsWith('data/')), 'Private import unexpectedly contacted an external service');
  }
@@ -76,6 +88,30 @@ FULL = r'''
 class QuietHandler(SimpleHTTPRequestHandler):
     def log_message(self, *_):
         pass
+
+
+class BrowserResult(HTMLParser):
+    """Extract the assertion before Chrome's unrelated desktop-service stderr."""
+    def __init__(self, dom):
+        super().__init__()
+        self.active = False
+        self.success = False
+        self.messages = []
+        self.feed(dom)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'pre' and attrs.get('id') == 'browser-results':
+            self.active = True
+            self.success = attrs.get('data-success') == 'true'
+
+    def handle_endtag(self, tag):
+        if tag == 'pre':
+            self.active = False
+
+    def handle_data(self, data):
+        if self.active:
+            self.messages.append(data)
 
 
 def main():
@@ -120,10 +156,12 @@ def main():
                     command.append(f'--screenshot={dest / (str(width) + ".png")}')
                 command.append(f'http://127.0.0.1:{server.server_port}/reader/')
                 result = subprocess.run(command, text=True, capture_output=True, timeout=60)
-                if result.returncode or 'id="browser-results" data-success="true"' not in result.stdout:
+                outcome = BrowserResult(result.stdout)
+                if result.returncode or not outcome.success:
                     print(result.stdout[-5000:])
                     print(result.stderr[-3000:])
-                    raise SystemExit(f'Browser tests failed at {width}px')
+                    detail = ''.join(outcome.messages) or 'No completion result: browser checks did not finish within the execution budget.'
+                    raise SystemExit(f'Browser tests failed at {width}px (Chrome exit {result.returncode}):\n{detail}')
                 print(f'PASS: Chrome {width}px, repository subpath, ' + ('smoke checks' if args.smoke else 'filters, search, sorting, citations, history, dates, responsive layout'))
         finally:
             server.shutdown()

@@ -409,6 +409,20 @@ class PipelineTests(TestCase):
             self.update()
 
 
+class BrowserDiagnosticTests(TestCase):
+    def test_assertion_is_extracted_from_large_dom(self):
+        from scripts.browser_test import BrowserResult
+        result = BrowserResult('<main>' + 'paper ' * 2000 + '</main>'
+            '<pre data-success="false" id="browser-results">Error: Import failed: A &amp; B\n at runTests</pre>')
+        self.assertFalse(result.success)
+        self.assertEqual(''.join(result.messages), 'Error: Import failed: A & B\n at runTests')
+
+    def test_missing_completion_is_not_a_pass(self):
+        from scripts.browser_test import BrowserResult
+        self.assertFalse(BrowserResult('<main>Still loading</main>').success)
+        self.assertTrue(BrowserResult('<pre data-success="true" id="browser-results">PASS</pre>').success)
+
+
 class ArchiveGitTests(TestCase):
     def test_token_is_scoped_and_never_written_to_command(self):
         import os
