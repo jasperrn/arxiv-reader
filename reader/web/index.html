@@ -28,6 +28,10 @@
       <textarea id="profile-followed" rows="3" placeholder="Witten&#10;Maldacena&#10;de Sitter"></textarea>
       <label for="profile-tracked">Additional papers: one per line, as arxiv:ID, doi:DOI, or inspire:ID</label>
       <textarea id="profile-tracked" rows="3"></textarea>
+      <label for="profile-keywords">Followed keywords or phrases: one per line (matches any)</label>
+      <textarea id="profile-keywords" rows="3" placeholder="conformal bootstrap&#10;dark matter"></textarea>
+      <label for="profile-keyword-scope">Look for keywords in</label>
+      <select id="profile-keyword-scope"><option value="title">Titles only</option><option value="title_abstract" selected>Titles and abstracts</option></select>
       <button type="submit">Save in this browser</button>
       <button id="profile-refresh" type="button">Refresh my bibliography</button>
     </form>
@@ -45,6 +49,7 @@
     <label><input type="checkbox" id="mine">Cites my work</label>
     <label><input type="checkbox" id="tracked">Cites tracked papers</label>
     <label><input type="checkbox" id="followed">Followed authors</label>
+    <label><input type="checkbox" id="keywords">Followed keywords</label>
     <label><input type="checkbox" id="bookmarked">Bookmarked</label>
     <label><input type="checkbox" id="unread">Unread</label>
     <label>Combine<select id="combine"><option value="all">All filters (AND)</option><option value="any">Any filter (OR)</option></select></label>

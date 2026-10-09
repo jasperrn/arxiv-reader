@@ -65,3 +65,19 @@ These settings control the host collector or private Python run, not the public 
 Large category lists may exceed the request budget; increase it only within reasonable run time and source-service limits. Requests are serial: at least 3.1 seconds apart across arXiv hosts and 0.4 seconds apart for INSPIRE. Retries respect `Retry-After`, use backoff, and defer long waits to the next scheduled run. A host that remains unavailable after retries is not hammered for every remaining paper. Missing HTTP 404 results are cached too.
 
 RSS responses cache for one hour, HTML identifier extracts for seven days, and missing HTML for one day. The archive itself has no expiry; unused HTTP cache entries older than 90 days are pruned from the current data tree (Git history remains).
+
+### Private keyword filters
+
+Add this to private `config.yaml`, or enter one keyword/phrase per line under **My private settings** on the website:
+
+```yaml
+keywords:
+  terms:
+    - conformal bootstrap
+    - dark matter
+  scope: title_abstract
+```
+
+Use `scope: title` for titles only, or `title_abstract` for titles and abstracts. Matching is case-insensitive literal substring matching (no regex); any listed term is sufficient. Phrases must occur within a single title or abstract. For example, `spin` also matches `spinning`. The listing shows which keywords matched. Enable **Followed keywords** to filter, and use the existing AND/OR control to combine it with authors, citations, bookmarks, and unread status. With no terms, this filter matches no papers.
+
+Keyword preferences stay in the browser and are included in private configuration imports/exports. To import a YAML edit, run `python -m reader export-profile --settings-only` and import the resulting private-profile.yaml. Keep `keywords.terms` empty in public config.example.yaml; publication guards reject personal keyword lists.

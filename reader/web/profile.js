@@ -3,7 +3,7 @@
 const ReaderProfile = (() => {
   const storageKey = `arxiv-reader-profile-v1:${location.pathname}`;
   const base = 'https://inspirehep.net/api/';
-  let profile = {inspire_author_id: null, followed_authors: [], tracked_publications: [], categories: [], display: {}};
+  let profile = {inspire_author_id: null, followed_authors: [], tracked_publications: [], categories: [], keywords: {terms: [], scope: 'title_abstract'}, display: {}};
   let resolved = {targets: [], followed: [], updated_at: null};
   let changed = () => {}, revision = 0, lastRequest = 0, available = [];
   const sessionCache = new Map();
@@ -29,7 +29,11 @@ const ReaderProfile = (() => {
   function validate(raw) {
     if (!raw || typeof raw !== 'object' || Array.isArray(raw)) throw new Error('Configuration must be an object.');
     const cfg = {inspire_author_id: author(raw.inspire_author_id), followed_authors: raw.followed_authors || [],
-      tracked_publications: raw.tracked_publications || [], categories: raw.categories || [], display: raw.display || {}};
+      tracked_publications: raw.tracked_publications || [], categories: raw.categories || [], display: raw.display || {}, keywords: {terms: [], scope: 'title_abstract', ...(raw.keywords || {})}};
+    if (raw.keywords !== undefined && (!raw.keywords || typeof raw.keywords !== 'object' || Array.isArray(raw.keywords))) throw new Error('keywords must be an object.');
+    if (Object.keys(cfg.keywords).some(k => !['terms', 'scope'].includes(k)) || !Array.isArray(cfg.keywords.terms) || !cfg.keywords.terms.every(t => typeof t === 'string' && t.trim())) throw new Error('keywords.terms must be a list of nonempty strings.');
+    if (!['title', 'title_abstract'].includes(cfg.keywords.scope)) throw new Error('keywords.scope must be title or title_abstract.');
+    cfg.keywords.terms = [...new Set(cfg.keywords.terms.map(t => t.trim()))];
     if (!Array.isArray(cfg.categories) || !cfg.categories.every(c => typeof c === 'string')) throw new Error('categories must be a list.');
     if (!Array.isArray(cfg.followed_authors) || !Array.isArray(cfg.tracked_publications)) throw new Error('Author and paper settings must be lists.');
     cfg.followed_authors = cfg.followed_authors.map(a => {
@@ -131,7 +135,7 @@ const ReaderProfile = (() => {
     if (force) { revision++; sessionCache.clear(); }
     const ticket = revision;
     if (!profile.inspire_author_id && !profile.followed_authors.length && !profile.tracked_publications.length) {
-      status('No personal settings configured. Settings you enter here stay in this browser.'); return;
+      status(profile.keywords.terms.length ? 'Keyword settings saved locally; no INSPIRE lookup needed.' : 'No personal settings configured. Settings you enter here stay in this browser.'); return;
     }
     if (!force && resolved.updated_at && Date.now() - Date.parse(resolved.updated_at) < 86400000) {
       status('Using your locally cached bibliography.'); changed(); return;
@@ -175,16 +179,20 @@ const ReaderProfile = (() => {
       const name = normalize(a.name);
       if (names.some(n => name === n || name.endsWith(' ' + n))) Object.assign(a, {followed: true, match: 'provisional'});
     }
+    const fields = [p.title, ...(profile.keywords.scope === 'title_abstract' ? [p.abstract || ''] : [])].map(t => t.toLowerCase());
+    p.keyword_matches = profile.keywords.terms.filter(term => fields.some(text => text.includes(term.toLowerCase())));
     return p;
   }
   function fill() {
+    $p('profile-keywords').value = profile.keywords.terms.join('\n');
+    $p('profile-keyword-scope').value = profile.keywords.scope;
     $p('profile-author').value = profile.inspire_author_id || '';
     $p('profile-categories').value = profile.categories.join(', ');
     $p('profile-followed').value = profile.followed_authors.map(a => [a.name, a.inspire_id || '', (a.aliases || []).join('; ')].join(' | ').replace(/(\s*\|\s*)+$/, '')).join('\n');
     $p('profile-tracked').value = profile.tracked_publications.map(t => { const [k,v] = Object.entries(t)[0]; return k + ':' + v; }).join('\n');
   }
   function formSettings() {
-    const cfg = {...profile, inspire_author_id: $p('profile-author').value,
+    const cfg = {...profile, keywords: {terms: $p('profile-keywords').value.split('\n').map(s => s.trim()).filter(Boolean), scope: $p('profile-keyword-scope').value}, inspire_author_id: $p('profile-author').value,
       categories: $p('profile-categories').value.split(',').map(s => s.trim()).filter(Boolean),
       followed_authors: $p('profile-followed').value.split('\n').map(s => s.trim()).filter(Boolean).map(line => {
         const [name, id, aliases] = line.split('|').map(s => s.trim()); return {name, ...(id ? {inspire_id:id} : {}), aliases: aliases ? aliases.split(';').map(s => s.trim()).filter(Boolean) : []}; }),
@@ -212,7 +220,7 @@ const ReaderProfile = (() => {
       } catch (error) { status(`Import failed: ${error.message}`); }
       event.target.value = '';
     });
-    $p('profile-clear').addEventListener('click', () => { revision++; profile = {inspire_author_id:null,followed_authors:[],tracked_publications:[],categories:[],display:{}}; resolved={targets:[],followed:[],updated_at:null}; sessionCache.clear(); try {localStorage.removeItem(storageKey);} catch (_) {} fill(); changed(); status('Personal settings and cached bibliography cleared from this browser.'); });
+    $p('profile-clear').addEventListener('click', () => { revision++; profile = {inspire_author_id:null,followed_authors:[],tracked_publications:[],categories:[],keywords:{terms:[],scope:'title_abstract'},display:{}}; resolved={targets:[],followed:[],updated_at:null}; sessionCache.clear(); try {localStorage.removeItem(storageKey);} catch (_) {} fill(); changed(); status('Personal settings and cached bibliography cleared from this browser.'); });
     changed(); refresh();
   }
   return {init, apply, categories: () => profile.categories, display: () => profile.display};

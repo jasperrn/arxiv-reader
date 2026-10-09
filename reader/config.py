@@ -12,6 +12,7 @@ class ConfigError(ValueError):
 DEFAULTS = {
     'categories': ['hep-ph', 'hep-th'], 'inspire_author_id': None,
     'followed_authors': [], 'tracked_publications': [],
+    'keywords': {'terms': [], 'scope': 'title_abstract'},
     'display': {'title': 'My arXiv reader', 'abstracts_expanded': False,
                 'citation_details_expanded': False, 'show_replacements': True,
                 'default_sort': 'announcement'},
@@ -66,9 +67,13 @@ def load_config(path='config.yaml'):
     keys(raw, DEFAULTS, 'config')
     cfg = deepcopy(DEFAULTS)
     cfg.update(raw)
-    for section in ('display', 'updates'):
+    for section in ('display', 'updates', 'keywords'):
         keys(raw.get(section, {}), DEFAULTS[section], section)
         cfg[section] = DEFAULTS[section] | raw.get(section, {})
+    kw = cfg['keywords']
+    check(isinstance(kw['terms'], list) and all(isinstance(t, str) and t.strip() for t in kw['terms']), 'keywords.terms must be a list of nonempty strings')
+    check(kw['scope'] in ('title', 'title_abstract'), 'keywords.scope must be title or title_abstract')
+    kw['terms'] = list(dict.fromkeys(t.strip() for t in kw['terms']))
     cats = cfg['categories']
     check(isinstance(cats, list) and len(cats) > 0, 'categories must be a nonempty list')
     check(all(isinstance(c, str) and re.fullmatch(r'[a-z][a-z-]*(?:\.[A-Za-z][A-Za-z0-9-]*)?', c) for c in cats),

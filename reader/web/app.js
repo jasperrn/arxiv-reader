@@ -38,7 +38,7 @@ function visible(p) {
   if (!$('replacements').checked && p.announcements.every(a => a.type.startsWith('replace'))) return false;
   const matches = citationMatches(p);
   const values = {mine: matches.some(m => m.publication.groups.includes('mine')), tracked: matches.some(m => m.publication.groups.includes('tracked')),
-    followed: p.authors.some(a => a.followed), bookmarked: !!history.bookmarks[p.id], unread: !history.read[p.id]};
+    followed: p.authors.some(a => a.followed), keywords: !!p.keyword_matches?.length, bookmarked: !!history.bookmarks[p.id], unread: !history.read[p.id]};
   const chosen = Object.keys(values).filter(k => $(k).checked);
   return !chosen.length || ($('combine').value === 'all' ? chosen.every(k => values[k]) : chosen.some(k => values[k]));
 }
@@ -64,6 +64,7 @@ function renderPaper(p, index) {
   meta.append(node('span', labels[c.status] || 'Citation data unavailable', `badge ${c.status}`));
   if (c.stale) meta.append(node('span', 'Refresh pending · previous evidence', 'badge provisional'));
   if (p.authors.some(a => a.followed)) meta.append(node('span', 'Followed author', 'badge'));
+  if (p.keyword_matches?.length) meta.append(node('span', `Keywords: ${p.keyword_matches.join(', ')}`, 'badge'));
   article.append(meta);
   const abstract = node('details', undefined, 'abstract'); abstract.open = manifest.display.abstracts_expanded;
   abstract.append(node('summary', 'Abstract'), node('p', p.abstract)); article.append(abstract);
@@ -105,7 +106,7 @@ async function init() {
     const all = node('option', 'All archived dates'); all.value = 'all';
     $('date').replaceChildren(...options, all);
     $('date').addEventListener('change', selectDay);
-    for (const id of ['search', 'sort', 'mine', 'tracked', 'followed', 'bookmarked', 'unread', 'combine', 'provisional', 'replacements']) $(id).addEventListener(id === 'search' ? 'input' : 'change', render);
+    for (const id of ['search', 'sort', 'mine', 'tracked', 'followed', 'keywords', 'bookmarked', 'unread', 'combine', 'provisional', 'replacements']) $(id).addEventListener(id === 'search' ? 'input' : 'change', render);
     $('expand').addEventListener('click', () => { manifest.display.abstracts_expanded = true; document.querySelectorAll('.abstract').forEach(e => e.open = true); });
     $('collapse').addEventListener('click', () => { manifest.display.abstracts_expanded = false; document.querySelectorAll('.abstract').forEach(e => e.open = false); });
     $('export').addEventListener('click', () => { const url = URL.createObjectURL(new Blob([JSON.stringify(history, null, 2)], {type: 'application/json'})); const a = link('', url); a.download = 'arxiv-reader-history.json'; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); });

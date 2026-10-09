@@ -25,3 +25,8 @@ updates:
   bibliography_check: true # Check identifiers in arXiv HTML bibliography, when available.
   max_bibliographies_per_run: 20
   user_agent: arxiv-daily-reader/1.0 (personal research reader)
+
+# Personal keywords belong in private config.yaml, not this public host file.
+keywords:
+  terms: []
+  scope: title_abstract  # title or title_abstract

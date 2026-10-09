@@ -36,6 +36,15 @@ class ConfigTests(TestCase):
     def test_defaults(self):
         self.assertEqual(self.load('{}')['updates']['recheck_days'], 30)
 
+    def test_keyword_configuration(self):
+        self.assertEqual(self.load('{}')['keywords'], {'terms': [], 'scope': 'title_abstract'})
+        self.assertEqual(self.load('keywords: {terms: [" dark matter ", bootstrap], scope: title}')['keywords'],
+                         {'terms': ['dark matter', 'bootstrap'], 'scope': 'title'})
+        for value in ['null', '[]', '{terms: abc}', '{terms: [""]}', '{terms: [42]}',
+                      '{scope: authors}', '{scope: null}', '{typo: true}']:
+            with self.subTest(value=value), self.assertRaises(ConfigError):
+                self.load('keywords: ' + value)
+
     def test_arbitrary_category_families(self):
         cfg = self.load('categories: [hep-ph, physics.optics, physics.acc-ph, astro-ph.CO, cs.LG, math.AG, econ.EM]')
         self.assertEqual(len(cfg['categories']), 7)
@@ -585,6 +594,27 @@ class PublicPrivacyTests(TestCase):
 
     def collect(self):
         return update(self.cfg, self.root / 'state', client=DemoClient(), now=NOW, public=True)
+
+    def test_keywords_are_private_and_local_build_respects_scope(self):
+        self.collect()
+        self.cfg['keywords'] = {'terms': ['PRIVATE_KEYWORD'], 'scope': 'title'}
+        with self.assertRaisesRegex(ValueError, 'anonymous'):
+            build(self.cfg, self.root / 'state', self.root / 'site', public=True)
+        with self.assertRaises(ValueError):
+            self.collect()
+        path = self.root / 'state/days/2026-10-09.json'
+        day = read_json(path)
+        day['papers'][0]['title'] = 'A PRIVATE_KEYWORD approach'
+        day['papers'][0]['abstract'] = 'An abstract-only term'
+        write_json(path, day)
+        self.cfg['keywords']['terms'] = ['private_keyword', 'abstract-only']
+        build(self.cfg, self.root / 'state', self.root / 'site')
+        result = read_json(self.root / 'site/data/2026-10-09.json')['papers'][0]
+        self.assertEqual(result['keyword_matches'], ['private_keyword'])
+        self.cfg['keywords']['scope'] = 'title_abstract'
+        build(self.cfg, self.root / 'state', self.root / 'site')
+        result = read_json(self.root / 'site/data/2026-10-09.json')['papers'][0]
+        self.assertEqual(result['keyword_matches'], ['private_keyword', 'abstract-only'])
 
     def test_public_pipeline_has_references_without_personal_matching(self):
         self.assertTrue(self.collect()['public_mode'])

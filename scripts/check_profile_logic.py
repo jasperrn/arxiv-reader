@@ -77,6 +77,17 @@ if(ReaderProfile.apply(papers[0]).authors[0].match!=='provisional')throw new Err
 const surnamePaper={...papers[0],public_data:undefined,authors:[{name:'M. Chen'},{name:'Chen, Mira'},{name:'Cheng'},{name:'Chen Li'}]};
 if(ReaderProfile.apply(surnamePaper).authors.map(a=>!!a.followed).join(',')!=='true,true,false,false')throw new Error('Surname matching must use arXiv authors with whole-name boundaries');
 if(ReaderProfile.apply(papers[0]).citation.status!=='unconfigured')throw new Error('Missing configuration treated as a negative match');
+elements['profile-clear'].events.click();
+elements['profile-keywords'].value='Bootstrap\\nDark Matter';elements['profile-keyword-scope'].value='title';
+elements['profile-form'].events.submit({preventDefault(){}});
+const keywordPaper={...papers[0],title:'A BOOTSTRAP approach',abstract:'New dark matter results'};
+if(ReaderProfile.apply(keywordPaper).keyword_matches.join(',')!=='Bootstrap')throw new Error('Title keyword matching failed');
+elements['profile-keyword-scope'].value='title_abstract';elements['profile-form'].events.submit({preventDefault(){}});
+if(ReaderProfile.apply(keywordPaper).keyword_matches.join(',')!=='Bootstrap,Dark Matter')throw new Error('Abstract keyword matching failed');
+if(ReaderProfile.apply({...keywordPaper,title:'Unrelated',abstract:'Unrelated',authors:[{name:'Bootstrap'}]}).keyword_matches.length)throw new Error('Keyword matched outside title/abstract');
+if(!JSON.parse(Object.values(storage)[0]).keywords.terms.length)throw new Error('Keywords not persisted');
+elements['profile-clear'].events.click();
+if(ReaderProfile.apply(keywordPaper).keyword_matches.length)throw new Error('Keywords survived clearing');
 ''')
         print('PASS: JavaScript syntax and private-profile logic; no network requests')
     finally:

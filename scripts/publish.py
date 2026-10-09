@@ -49,7 +49,7 @@ def prepare(destination):
         raise RuntimeError('Source staging requires an empty directory to avoid publishing leftover private files')
     import yaml
     settings = yaml.safe_load((ROOT / 'config.example.yaml').read_text())
-    if any(settings.get(k) for k in ('inspire_author_id', 'followed_authors', 'tracked_publications')):
+    if any(settings.get(k) for k in ('inspire_author_id', 'followed_authors', 'tracked_publications')) or settings.get('keywords', {}).get('terms'):
         raise RuntimeError('Public host configuration contains personal settings. Move them to private config.yaml.')
     for name in SOURCE_PATHS:
         source, target = ROOT / name, destination / name

@@ -17,7 +17,7 @@ The site needs no shared password: two people can open the same URL and see diff
 
 1. Open **My private settings**.
 2. Enter your INSPIRE author ID or author-profile URL.
-3. Optionally add followed authors (one surname or full name per line) and extra tracked papers. Author highlighting checks the arXiv author list directly and needs no INSPIRE author ID.
+3. Optionally add followed keywords (titles only or titles and abstracts), followed authors (one surname or full name per line) and extra tracked papers. Author highlighting checks the arXiv author list directly and needs no INSPIRE author ID.
 4. Choose **Save in this browser**.
 
 Your publications are retrieved from INSPIRE and cached locally. Each listing is matched against that bibliography in your browser. **Export private configuration** downloads one private YAML-compatible file containing your settings and cached bibliography. **Import private configuration** reads it locally; it does not upload it.

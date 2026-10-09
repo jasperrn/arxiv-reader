@@ -10,7 +10,7 @@ from .storage import read_json, write_json
 
 
 def build(config, state='state', output='site', *, public=False):
-    if public and (config['inspire_author_id'] or config['followed_authors'] or config['tracked_publications']):
+    if public and (config['inspire_author_id'] or config['followed_authors'] or config['tracked_publications'] or config.get('keywords', {}).get('terms')):
         raise ValueError('Use an anonymous configuration for a public build.')
     state, output = Path(state), Path(output)
     if output.resolve() == state.resolve() or output.resolve() in state.resolve().parents:
@@ -35,6 +35,11 @@ def build(config, state='state', output='site', *, public=False):
                 safe['citation'] = {'status': 'unavailable', 'matches': [], 'reason': 'Configure citation tracking privately in this browser.'}
                 safe_papers.append(safe)
             day = {'date': day['date'], 'sources': day['sources'], 'papers': safe_papers}
+        if not public:
+            kw = config.get('keywords', {'terms': [], 'scope': 'title_abstract'})
+            for paper in day['papers']:
+                fields = [paper['title']] + ([paper.get('abstract', '')] if kw['scope'] == 'title_abstract' else [])
+                paper['keyword_matches'] = [term for term in kw['terms'] if any(term.lower() in text.lower() for text in fields)]
         archive.append({'date': day['date'], 'count': len(day['papers']),
                         'categories_captured': sorted(day['sources'])})
         write_json(output / 'data' / path.name, day)

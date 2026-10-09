@@ -55,7 +55,7 @@ def resolve_targets(config, inspire, state, warnings):
 def update(config, state='state', client=None, feed_files=None, recheck_all=False, now=None, public=False):
     state = Path(state)
     if public:
-        if config['inspire_author_id'] or config['followed_authors'] or config['tracked_publications']:
+        if config['inspire_author_id'] or config['followed_authors'] or config['tracked_publications'] or config.get('keywords', {}).get('terms'):
             raise ValueError('Public collection requires an anonymous configuration. Use config.example.yaml.')
         prior_status = read_json(state / 'status.json', {})
         if any((state / name).exists() for name in ('days', 'cache', 'targets.json', 'status.json')) and not prior_status.get('public_mode'):

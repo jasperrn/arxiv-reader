@@ -69,6 +69,10 @@ FULL = r'''
  change('date', '2026-10-08'); await loaded(); assert(count() === 1, 'Previous announcement date');
  change('date', 'all'); await loaded(); assert(count() === 4, 'All-date deduplication');
  if (window.testProfile) {
+   change('keywords', true); assert(count() === 1, 'Keyword filter');
+   change('mine', true); assert(count() === 0, 'Keywords AND citations');
+   change('combine', 'any'); assert(count() === 2, 'Keywords OR citations');
+   change('keywords', false); change('mine', false); change('combine', 'all');
    assert(!document.getElementById('private-settings').hidden, 'Private settings form missing');
    document.getElementById('profile-clear').click();
    assert(!localStorage.getItem(`arxiv-reader-profile-v1:${location.pathname}`), 'Private settings not cleared');
