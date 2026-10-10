@@ -1,7 +1,7 @@
 {
   "body": "<?xml version='1.0' encoding='UTF-8'?>\n<rss xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" version=\"2.0\">\n  <channel>\n    <title>hep-th updates on arXiv.org</title>\n    <link>http://rss.arxiv.org/rss/hep-th</link>\n    <description>hep-th updates on the arXiv.org e-print archive.</description>\n    <atom:link href=\"http://rss.arxiv.org/rss/hep-th\" rel=\"self\" type=\"application/rss+xml\"/>\n    <docs>http://www.rssboard.org/rss-specification</docs>\n    <language>en-us</language>\n    <lastBuildDate>Sat, 10 Oct 2026 04:00:21 +0000</lastBuildDate>\n    <managingEditor>rss-help@arxiv.org</managingEditor>\n    <pubDate>Sat, 10 Oct 2026 00:00:00 -0400</pubDate>\n    <skipDays>\n      <day>Sunday</day>\n      <day>Saturday</day>\n    </skipDays>\n  </channel>\n</rss>\n",
   "etag": "de6004f075752c175e57f7d4fee592f4704f1a7685a8afc59d8d5b3e306e8f94",
-  "fetched": 1791648911.8255765,
+  "fetched": 1791664501.1888251,
   "modified": null,
   "status": 200
 }
