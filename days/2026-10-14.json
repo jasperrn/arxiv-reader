@@ -90809,7 +90809,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-16T09:53:58.247206+00:00",
-        "checked_at": "2026-10-16T09:53:58.247206+00:00",
+        "checked_at": "2026-10-17T14:14:15.735106+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -90822,7 +90822,7 @@
       "followed": false,
       "id": "2610.16968",
       "inspire_id": 3214429,
-      "metadata_checked_at": "2026-10-16T09:53:58.247206+00:00",
+      "metadata_checked_at": "2026-10-17T14:14:15.735106+00:00",
       "public_data": {
         "authors": [
           {
@@ -90866,7 +90866,7 @@
             "name": "Kristensen, Mikkel Theiss"
           }
         ],
-        "checked_at": "2026-10-16T09:53:58.247206+00:00",
+        "checked_at": "2026-10-17T14:14:15.735106+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -90966,6 +90966,23 @@
           {
             "identifiers": [
               "arxiv:1605.04909"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2406.01705",
+              "doi:10.21468/scipostphysrev.1",
+              "inspire:2795517"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2406.01705",
+              "doi:10.21468/scipostphysrev.1"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -97516,6 +97533,21 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ph/9809459",
+              "inspire:140422"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ph/9809459"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
@@ -152531,7 +152563,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-16T09:53:58.247206+00:00",
-        "checked_at": "2026-10-16T09:53:58.247206+00:00",
+        "checked_at": "2026-10-17T14:14:15.735106+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -152544,7 +152576,7 @@
       "followed": false,
       "id": "2606.13088",
       "inspire_id": 3167898,
-      "metadata_checked_at": "2026-10-16T09:53:58.247206+00:00",
+      "metadata_checked_at": "2026-10-17T14:14:15.735106+00:00",
       "public_data": {
         "authors": [
           {
@@ -152556,7 +152588,7 @@
             "name": "Wang, Fu-Lai"
           }
         ],
-        "checked_at": "2026-10-16T09:53:58.247206+00:00",
+        "checked_at": "2026-10-17T14:14:15.735106+00:00",
         "evidence": [
           {
             "identifiers": [
