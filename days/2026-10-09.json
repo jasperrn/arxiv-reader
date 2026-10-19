@@ -36901,8 +36901,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-09T12:42:45.177362+00:00",
-        "checked_at": "2026-10-18T09:40:49.073833+00:00",
+        "bibliography_checked_at": "2026-10-19T10:50:29.936032+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -36915,7 +36915,7 @@
       "followed": false,
       "id": "2610.11937",
       "inspire_id": 3213034,
-      "metadata_checked_at": "2026-10-18T09:40:49.073833+00:00",
+      "metadata_checked_at": "2026-10-19T10:50:29.936032+00:00",
       "public_data": {
         "authors": [
           {
@@ -36935,7 +36935,7 @@
             "name": "Meißner, Ulf-G."
           }
         ],
-        "checked_at": "2026-10-18T09:40:49.073833+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -36944,13 +36944,6 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1007/bf02730295"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -37119,6 +37112,7 @@
           {
             "identifiers": [
               "arxiv:2012.06177",
+              "doi:10.1103/physrevd",
               "doi:10.1103/physrevd.103.012009",
               "inspire:1836284"
             ],
@@ -37127,7 +37121,8 @@
           },
           {
             "identifiers": [
-              "arxiv:2012.06177"
+              "arxiv:2012.06177",
+              "doi:10.1103/physrevd"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37143,6 +37138,7 @@
           },
           {
             "identifiers": [
+              "arxiv:2401.00918",
               "doi:10.1103/physrevd.111.052011"
             ],
             "source": "INSPIRE unstructured reference",
@@ -37227,8 +37223,7 @@
           },
           {
             "identifiers": [
-              "arxiv:2502.16047",
-              "doi:10.1103/tr1v-lly8"
+              "arxiv:2502.16047"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37292,7 +37287,8 @@
           },
           {
             "identifiers": [
-              "arxiv:2602.04520"
+              "arxiv:2602.04520",
+              "doi:10.1103/nlvd-lhcw"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37345,13 +37341,6 @@
           },
           {
             "identifiers": [
-              "arxiv:2608.29775"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
               "arxiv:2408.06738",
               "doi:10.1088/0256-307x/41/10/101101",
               "inspire:2817747"
@@ -37376,18 +37365,18 @@
           },
           {
             "identifiers": [
+              "arxiv:2608.22394"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2609.05908",
               "inspire:3200799"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2609.05908"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -37431,6 +37420,7 @@
           },
           {
             "identifiers": [
+              "arxiv:1007.2886",
               "doi:10.1103/physrevd.82.092002"
             ],
             "source": "INSPIRE unstructured reference",
@@ -37521,6 +37511,7 @@
           {
             "identifiers": [
               "arxiv:1305.5333",
+              "doi:10.1103/physrevd",
               "doi:10.1103/physrevd.88.091502",
               "inspire:1235278"
             ],
@@ -37530,7 +37521,7 @@
           {
             "identifiers": [
               "arxiv:1305.5333",
-              "doi:10.1103/physrevd.88.091502"
+              "doi:10.1103/physrevd"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37571,6 +37562,7 @@
           {
             "identifiers": [
               "arxiv:2209.10101",
+              "doi:10.1103/physrevd",
               "doi:10.1103/physrevd.107.034030",
               "inspire:2154662"
             ],
@@ -37579,7 +37571,8 @@
           },
           {
             "identifiers": [
-              "arxiv:2209.10101"
+              "arxiv:2209.10101",
+              "doi:10.1103/physrevd"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37595,7 +37588,8 @@
           },
           {
             "identifiers": [
-              "arxiv:1506.08120"
+              "arxiv:1506.08120",
+              "doi:10.1103/physrevd.92.054032"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37611,6 +37605,7 @@
           },
           {
             "identifiers": [
+              "arxiv:2408.14876",
               "doi:10.1103/physrevd.110.094020"
             ],
             "source": "INSPIRE unstructured reference",
@@ -37627,6 +37622,7 @@
           },
           {
             "identifiers": [
+              "arxiv:1804.07077",
               "doi:10.1103/physrevd.98.014005"
             ],
             "source": "INSPIRE unstructured reference",
@@ -37763,6 +37759,14 @@
           },
           {
             "identifiers": [
+              "doi:10.1016/s0370-2693(98)01241-6",
+              "inspire:482964"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "arxiv:1507.04526",
               "doi:10.1140/epjc/s10052-015-3715-z",
               "inspire:1383148"
@@ -37835,7 +37839,6 @@
           {
             "identifiers": [
               "arxiv:1202.0845",
-              "doi:10.1103/physrevc",
               "doi:10.1103/physrevc.86.015202",
               "inspire:1087900"
             ],
@@ -37845,14 +37848,13 @@
           {
             "identifiers": [
               "arxiv:1202.0845",
-              "doi:10.1103/physrevc"
+              "doi:10.1103/physrevc.86.015202"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1016/0375-9474(72)",
               "doi:10.1016/0375-9474(72)90305-3",
               "inspire:76474"
             ],
@@ -37861,7 +37863,7 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0375-9474(72"
+              "doi:10.1016/0375-9474(72)90305-3"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -37873,13 +37875,6 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1002/andp.19955070504"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -38136,6 +38131,13 @@
             "identifiers": [
               "arxiv:1007.2886",
               "doi:10.1103/physrevd.82.092002"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/s0370-2693%2898%2901241-6"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -163396,7 +163398,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-14T10:17:24.614208+00:00",
-        "checked_at": "2026-10-18T09:40:49.073833+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -163409,7 +163411,7 @@
       "followed": false,
       "id": "2610.10717",
       "inspire_id": 3212810,
-      "metadata_checked_at": "2026-10-18T09:40:49.073833+00:00",
+      "metadata_checked_at": "2026-10-19T10:50:29.936032+00:00",
       "public_data": {
         "authors": [
           {
@@ -163421,7 +163423,7 @@
             "name": "Maji, Sourav"
           }
         ],
-        "checked_at": "2026-10-18T09:40:49.073833+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -176757,8 +176759,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-15T20:22:18.149829+00:00",
-        "checked_at": "2026-10-18T14:38:23.023050+00:00",
+        "bibliography_checked_at": "2026-10-19T10:50:29.936032+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -176771,7 +176773,7 @@
       "followed": false,
       "id": "2610.11664",
       "inspire_id": 3212750,
-      "metadata_checked_at": "2026-10-18T14:38:23.023050+00:00",
+      "metadata_checked_at": "2026-10-19T10:50:29.936032+00:00",
       "public_data": {
         "authors": [
           {
@@ -176779,7 +176781,7 @@
             "name": "Solodukhin, Sergey N."
           }
         ],
-        "checked_at": "2026-10-18T14:38:23.023050+00:00",
+        "checked_at": "2026-10-19T10:50:29.936032+00:00",
         "evidence": [
           {
             "identifiers": [
