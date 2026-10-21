@@ -25841,7 +25841,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-15T10:00:02.737332+00:00",
-        "checked_at": "2026-10-20T10:07:59.517336+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -25854,7 +25854,7 @@
       "followed": false,
       "id": "2610.11789",
       "inspire_id": 3213029,
-      "metadata_checked_at": "2026-10-20T10:07:59.517336+00:00",
+      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
       "public_data": {
         "authors": [
           {
@@ -25866,7 +25866,7 @@
             "name": "Zhao, Zhen-hua"
           }
         ],
-        "checked_at": "2026-10-20T10:07:59.517336+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -91627,8 +91627,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-11T20:58:48.889086+00:00",
-        "checked_at": "2026-10-20T20:39:23.823793+00:00",
+        "bibliography_checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -91641,7 +91641,7 @@
       "followed": false,
       "id": "2610.11035",
       "inspire_id": 3212860,
-      "metadata_checked_at": "2026-10-20T20:39:23.823793+00:00",
+      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
       "public_data": {
         "authors": [
           {
@@ -91649,7 +91649,7 @@
             "name": "Sen, Srimoyee"
           }
         ],
-        "checked_at": "2026-10-20T20:39:23.823793+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -92465,6 +92465,22 @@
           },
           {
             "identifiers": [
+              "arxiv:2203.03782",
+              "doi:10.1093/ptep/ptac075"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2212.11583",
+              "doi:10.1093/ptep/ptad023"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1016/0370-2693(81)90133-7"
             ],
             "source": "arXiv HTML bibliography",
@@ -92487,6 +92503,13 @@
           {
             "identifiers": [
               "doi:10.1016/0550-3213(81)90524-1"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.09093"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -153811,7 +153834,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-12T13:13:55.846021+00:00",
-        "checked_at": "2026-10-20T10:07:59.517336+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -153824,7 +153847,7 @@
       "followed": false,
       "id": "2610.00745",
       "inspire_id": 3210487,
-      "metadata_checked_at": "2026-10-20T10:07:59.517336+00:00",
+      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
       "public_data": {
         "authors": [
           {
@@ -153836,7 +153859,7 @@
             "name": "Quevedo, Fernando"
           }
         ],
-        "checked_at": "2026-10-20T10:07:59.517336+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -190310,8 +190333,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-15T20:22:18.149829+00:00",
-        "checked_at": "2026-10-20T20:39:23.823793+00:00",
+        "bibliography_checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -190324,7 +190347,7 @@
       "followed": false,
       "id": "2610.12414",
       "inspire_id": 3213015,
-      "metadata_checked_at": "2026-10-20T20:39:23.823793+00:00",
+      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
       "public_data": {
         "authors": [
           {
@@ -190340,7 +190363,7 @@
             "name": "Wen, Congkao"
           }
         ],
-        "checked_at": "2026-10-20T20:39:23.823793+00:00",
+        "checked_at": "2026-10-21T10:15:03.841482+00:00",
         "evidence": [
           {
             "identifiers": [
