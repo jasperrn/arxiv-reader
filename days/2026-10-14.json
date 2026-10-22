@@ -98027,7 +98027,7 @@
       "citation": {
         "bibliography": "HTML unavailable",
         "bibliography_checked_at": "2026-10-20T10:07:59.517336+00:00",
-        "checked_at": "2026-10-21T20:40:15.984867+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": false,
@@ -98040,7 +98040,7 @@
       "followed": false,
       "id": "2610.16708",
       "inspire_id": 3214354,
-      "metadata_checked_at": "2026-10-21T20:40:15.984867+00:00",
+      "metadata_checked_at": "2026-10-22T15:54:33.967112+00:00",
       "public_data": {
         "authors": [
           {
@@ -98048,7 +98048,7 @@
             "name": "Frampton, Paul H."
           }
         ],
-        "checked_at": "2026-10-21T20:40:15.984867+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "evidence": [],
         "references_available": false,
         "stale": false
@@ -256786,7 +256786,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-21T10:15:03.841482+00:00",
-        "checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -256799,7 +256799,7 @@
       "followed": false,
       "id": "2610.18715",
       "inspire_id": 3214982,
-      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
+      "metadata_checked_at": "2026-10-22T15:54:33.967112+00:00",
       "public_data": {
         "authors": [
           {
@@ -256807,7 +256807,7 @@
             "name": "Martin, Carmelo P."
           }
         ],
-        "checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -256981,6 +256981,23 @@
           },
           {
             "identifiers": [
+              "arxiv:2508.10085",
+              "doi:10.1016/j.physletb.2026.140669",
+              "inspire:2960532"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2508.10085",
+              "doi:10.1016/j.physletb.2026.140669"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2604.22582",
               "doi:10.1007/jhep08(2026)152",
               "inspire:3149008"
@@ -256998,6 +257015,23 @@
           },
           {
             "identifiers": [
+              "arxiv:2506.16164",
+              "doi:10.1140/epjc/s10052-026-15437-1",
+              "inspire:2937266"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2506.16164",
+              "doi:10.1140/epjc/s10052-026-15437-1"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2602.02644",
               "doi:10.1016/j.physrep.2026.03.005",
               "inspire:3115067"
@@ -257009,6 +257043,23 @@
             "identifiers": [
               "arxiv:2602.02644",
               "doi:10.1016/j.physrep.2026.03.005"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.24657",
+              "doi:10.1088/1751-8121/ae91a3",
+              "inspire:3136320"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.24657",
+              "doi:10.1088/1751-8121/ae91a3"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -257043,6 +257094,40 @@
             "identifiers": [
               "arxiv:2212.02360",
               "doi:10.1016/j.physrep.2023.07.007"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2412.18965",
+              "doi:10.21468/scipostphys.19.2.046",
+              "inspire:2863293"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2412.18965",
+              "doi:10.21468/scipostphys.19.2.046"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2501.16426",
+              "doi:10.1103/jnf5-sdvb",
+              "inspire:3172328"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2501.16426",
+              "doi:10.1103/jnf5-sdvb"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -270658,7 +270743,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-21T10:15:03.841482+00:00",
-        "checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -270671,7 +270756,7 @@
       "followed": false,
       "id": "2610.18629",
       "inspire_id": 3215009,
-      "metadata_checked_at": "2026-10-21T10:15:03.841482+00:00",
+      "metadata_checked_at": "2026-10-22T15:54:33.967112+00:00",
       "public_data": {
         "authors": [
           {
@@ -270679,7 +270764,7 @@
             "name": "Mandal, Ipsita"
           }
         ],
-        "checked_at": "2026-10-21T10:15:03.841482+00:00",
+        "checked_at": "2026-10-22T15:54:33.967112+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -271038,6 +271123,22 @@
           },
           {
             "identifiers": [
+              "doi:10.1103/physrevx.5.031013",
+              "inspire:1345203"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevx.6.031003",
+              "inspire:1475128"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "doi:10.1007/bf02193559",
               "inspire:159132"
             ],
@@ -271071,6 +271172,36 @@
           {
             "identifiers": [
               "inspire:2837681"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.2139/ssrn.7617619"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.2139/ssrn.7617619"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/s10909-026-03452-1",
+              "inspire:2935371"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s41598-025-22023-0",
+              "inspire:2932002"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
