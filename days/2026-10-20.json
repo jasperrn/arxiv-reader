@@ -168229,7 +168229,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-22T10:16:18.376377+00:00",
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -168242,7 +168242,7 @@
       "followed": false,
       "id": "2610.24303",
       "inspire_id": 3216223,
-      "metadata_checked_at": "2026-10-22T10:16:18.376377+00:00",
+      "metadata_checked_at": "2026-10-23T15:46:24.512733+00:00",
       "public_data": {
         "authors": [
           {
@@ -168258,7 +168258,7 @@
             "name": "Virmani, Amitabh"
           }
         ],
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -168742,6 +168742,21 @@
           {
             "identifiers": [
               "arxiv:1310.1528"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.26623",
+              "inspire:3216394"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.26623"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"

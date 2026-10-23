@@ -95318,7 +95318,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-22T10:16:18.376377+00:00",
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -95331,23 +95331,23 @@
       "followed": false,
       "id": "2610.16496",
       "inspire_id": 3214333,
-      "metadata_checked_at": "2026-10-22T10:16:18.376377+00:00",
+      "metadata_checked_at": "2026-10-23T15:46:24.512733+00:00",
       "public_data": {
         "authors": [
           {
-            "id": "1036898",
-            "name": "Fay, Stéphane"
-          },
-          {
             "id": "3149185",
             "name": "Artola, Mikel"
+          },
+          {
+            "id": "1036898",
+            "name": "Fay, Stéphane"
           },
           {
             "id": "993763",
             "name": "Perivolaropoulos, Leandros"
           }
         ],
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -95528,18 +95528,10 @@
           },
           {
             "identifiers": [
-              "arxiv:2308.16628",
               "inspire:2692516"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2308.16628"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -95693,6 +95685,7 @@
           },
           {
             "identifiers": [
+              "arxiv:gr-qc/0009008",
               "inspire:532836"
             ],
             "source": "INSPIRE reference metadata",
@@ -95700,7 +95693,7 @@
           },
           {
             "identifiers": [
-              "arxiv:grqc/0009008"
+              "arxiv:gr-qc/0009008"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -95856,6 +95849,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2603.18986",
+              "inspire:3131724"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.18986"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1703.10871",
               "inspire:1520859"
             ],
@@ -95976,6 +95984,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2506.22599",
+              "inspire:2940317"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2506.22599"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "inspire:253874"
             ],
             "source": "INSPIRE reference metadata",
@@ -95997,7 +96020,6 @@
           },
           {
             "identifiers": [
-              "arxiv:astro-ph/9609200",
               "inspire:420014"
             ],
             "source": "INSPIRE reference metadata",
@@ -96005,7 +96027,7 @@
           },
           {
             "identifiers": [
-              "arxiv:astro-ph/9609200"
+              "arxiv:astroph/9609200"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -96065,7 +96087,7 @@
           },
           {
             "identifiers": [
-              "arxiv:hepph/0002129"
+              "arxiv:hep-ph/0002129"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -96274,6 +96296,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2606.16844",
+              "inspire:3168998"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2606.16844"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2607.08654",
               "inspire:3179050"
             ],
@@ -96386,6 +96423,21 @@
           },
           {
             "identifiers": [
+              "arxiv:1210.7652",
+              "inspire:1193884"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1210.7652"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1911.10237",
               "inspire:1795468"
             ],
@@ -96438,6 +96490,36 @@
           },
           {
             "identifiers": [
+              "arxiv:2502.07185",
+              "inspire:2878788"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2502.07185"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2006.05461",
+              "inspire:1800507"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2006.05461"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2408.07175",
               "inspire:2818064"
             ],
@@ -96462,6 +96544,36 @@
           {
             "identifiers": [
               "arxiv:2602.06293"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2604.05836",
+              "inspire:3140804"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2604.05836"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2604.05822",
+              "inspire:3140783"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2604.05822"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -96677,6 +96789,51 @@
           {
             "identifiers": [
               "arxiv:2102.06012"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2404.08633",
+              "inspire:2776882"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2404.08633"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2504.04417",
+              "inspire:2908677"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2504.04417"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.19883",
+              "inspire:3193685"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.19883"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -222534,7 +222691,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-15T10:00:02.737332+00:00",
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -222547,7 +222704,7 @@
       "followed": false,
       "id": "2610.14441",
       "inspire_id": 3214035,
-      "metadata_checked_at": "2026-10-22T10:16:18.376377+00:00",
+      "metadata_checked_at": "2026-10-23T15:46:24.512733+00:00",
       "public_data": {
         "authors": [
           {
@@ -222555,7 +222712,7 @@
             "name": "Huang, Tzu-Chen"
           }
         ],
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -240518,7 +240675,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-22T10:16:18.376377+00:00",
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -240531,7 +240688,7 @@
       "followed": false,
       "id": "2610.16250",
       "inspire_id": 3214047,
-      "metadata_checked_at": "2026-10-22T10:16:18.376377+00:00",
+      "metadata_checked_at": "2026-10-23T15:46:24.512733+00:00",
       "public_data": {
         "authors": [
           {
@@ -240543,7 +240700,7 @@
             "name": "Thierry-Mieg, Jean"
           }
         ],
-        "checked_at": "2026-10-22T10:16:18.376377+00:00",
+        "checked_at": "2026-10-23T15:46:24.512733+00:00",
         "evidence": [
           {
             "identifiers": [
