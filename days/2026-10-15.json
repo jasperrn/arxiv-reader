@@ -137901,7 +137901,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-16T09:53:58.247206+00:00",
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -137914,7 +137914,7 @@
       "followed": false,
       "id": "2610.19078",
       "inspire_id": 3215060,
-      "metadata_checked_at": "2026-10-23T10:09:29.662991+00:00",
+      "metadata_checked_at": "2026-10-24T14:36:28.834235+00:00",
       "public_data": {
         "authors": [
           {
@@ -137926,7 +137926,7 @@
             "name": "Dvornikov, Maxim"
           }
         ],
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -162157,7 +162157,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-17T14:14:15.735106+00:00",
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -162170,7 +162170,7 @@
       "followed": false,
       "id": "2610.19616",
       "inspire_id": 3198838,
-      "metadata_checked_at": "2026-10-23T10:09:29.662991+00:00",
+      "metadata_checked_at": "2026-10-24T14:36:28.834235+00:00",
       "public_data": {
         "authors": [
           {
@@ -162182,7 +162182,7 @@
             "name": "Toumbas, Nicolaos Κ."
           }
         ],
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -167430,7 +167430,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-23T10:09:29.662991+00:00",
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -167443,7 +167443,7 @@
       "followed": false,
       "id": "2610.20451",
       "inspire_id": 3215199,
-      "metadata_checked_at": "2026-10-23T10:09:29.662991+00:00",
+      "metadata_checked_at": "2026-10-24T14:36:28.834235+00:00",
       "public_data": {
         "authors": [
           {
@@ -167459,7 +167459,7 @@
             "name": "Usseglio, Davide"
           }
         ],
-        "checked_at": "2026-10-23T10:09:29.662991+00:00",
+        "checked_at": "2026-10-24T14:36:28.834235+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -168458,6 +168458,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2602.08833",
+              "inspire:3117756"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.08833"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2511.05412",
               "inspire:3081004"
             ],
@@ -168728,6 +168743,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.20452",
+              "inspire:3215194"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.20452"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "inspire:556457"
             ],
             "source": "INSPIRE reference metadata",
@@ -168855,6 +168885,21 @@
           {
             "identifiers": [
               "arxiv:2201.11607"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2402.06361",
+              "inspire:2757106"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2402.06361"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -169001,6 +169046,13 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2506.20733"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
