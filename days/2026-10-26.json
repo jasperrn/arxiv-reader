@@ -77441,7 +77441,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -77454,7 +77454,7 @@
       "followed": false,
       "id": "2610.30049",
       "inspire_id": 3217411,
-      "metadata_checked_at": "2026-10-28T11:23:48.949040+00:00",
+      "metadata_checked_at": "2026-10-31T10:57:33.267226+00:00",
       "public_data": {
         "authors": [
           {
@@ -77470,7 +77470,7 @@
             "name": "Sopuerta, Carlos F."
           }
         ],
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -77752,6 +77752,21 @@
           {
             "identifiers": [
               "arxiv:2610.17179"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.10529",
+              "inspire:3212613"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.10529"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -78220,6 +78235,36 @@
           {
             "identifiers": [
               "arxiv:2504.06072"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2407.15191",
+              "inspire:2809980"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2407.15191"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.03009",
+              "inspire:3199474"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.03009"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"

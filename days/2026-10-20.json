@@ -162999,7 +162999,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -163012,7 +163012,7 @@
       "followed": false,
       "id": "2610.25972",
       "inspire_id": 3216334,
-      "metadata_checked_at": "2026-10-28T11:23:48.949040+00:00",
+      "metadata_checked_at": "2026-10-31T10:57:33.267226+00:00",
       "public_data": {
         "authors": [
           {
@@ -163024,7 +163024,7 @@
             "name": "Yan, Xin"
           }
         ],
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -163347,11 +163347,43 @@
           },
           {
             "identifiers": [
+              "arxiv:2411.07939",
+              "doi:10.1103/physrevlett.134.111602",
+              "inspire:2847484"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2411.07939"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1016/0550-3213(88)90442-7",
               "inspire:252779"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.06661",
+              "doi:10.1016/j.physrep.2026.09.005",
+              "inspire:3178432"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.06661"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
@@ -210553,7 +210585,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -210566,7 +210598,7 @@
       "followed": false,
       "id": "2610.08904",
       "inspire_id": 3212472,
-      "metadata_checked_at": "2026-10-28T11:23:48.949040+00:00",
+      "metadata_checked_at": "2026-10-31T10:57:33.267226+00:00",
       "public_data": {
         "authors": [
           {
@@ -210586,7 +210618,7 @@
             "name": "Vazão, Francisco"
           }
         ],
-        "checked_at": "2026-10-28T11:23:48.949040+00:00",
+        "checked_at": "2026-10-31T10:57:33.267226+00:00",
         "evidence": [
           {
             "identifiers": [
