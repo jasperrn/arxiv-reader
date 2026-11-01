@@ -10844,7 +10844,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-30T11:26:56.515822+00:00",
-        "checked_at": "2026-10-30T11:26:56.515822+00:00",
+        "checked_at": "2026-11-01T11:53:08.613686+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -10857,7 +10857,7 @@
       "followed": false,
       "id": "2610.33638",
       "inspire_id": 3218846,
-      "metadata_checked_at": "2026-10-30T11:26:56.515822+00:00",
+      "metadata_checked_at": "2026-11-01T11:53:08.613686+00:00",
       "public_data": {
         "authors": [
           {
@@ -10865,7 +10865,7 @@
             "name": "Chay, Junegone"
           }
         ],
-        "checked_at": "2026-10-30T11:26:56.515822+00:00",
+        "checked_at": "2026-11-01T11:53:08.613686+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -11190,7 +11190,8 @@
           },
           {
             "identifiers": [
-              "inspire:157352"
+              "arxiv:1710.02284",
+              "inspire:1628987"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -11258,6 +11259,21 @@
           {
             "identifiers": [
               "arxiv:2106.13027"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2211.04494",
+              "inspire:2178409"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2211.04494"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
