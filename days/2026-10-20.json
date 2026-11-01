@@ -179497,7 +179497,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-30T11:26:56.515822+00:00",
-        "checked_at": "2026-10-30T11:26:56.515822+00:00",
+        "checked_at": "2026-11-01T21:13:20.673128+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -179510,7 +179510,7 @@
       "followed": false,
       "id": "2610.24027",
       "inspire_id": 3216147,
-      "metadata_checked_at": "2026-10-30T11:26:56.515822+00:00",
+      "metadata_checked_at": "2026-11-01T21:13:20.673128+00:00",
       "public_data": {
         "authors": [
           {
@@ -179518,8 +179518,15 @@
             "name": "Corichi, Alejandro"
           }
         ],
-        "checked_at": "2026-10-30T11:26:56.515822+00:00",
+        "checked_at": "2026-11-01T21:13:20.673128+00:00",
         "evidence": [
+          {
+            "identifiers": [
+              "inspire:325589"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
           {
             "identifiers": [
               "arxiv:gr-qc/9504018",
@@ -179619,7 +179626,15 @@
           },
           {
             "identifiers": [
-              "arxiv:grqc/9706069"
+              "arxiv:gr-qc/9706069",
+              "inspire:444619"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:gr-qc/9706069"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -179665,6 +179680,21 @@
           {
             "identifiers": [
               "arxiv:gr-qc/0305080"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:gr-qc/0411138",
+              "inspire:665477"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:gr-qc/0411138"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -179730,6 +179760,7 @@
           },
           {
             "identifiers": [
+              "arxiv:gr-qc/9703021",
               "inspire:441029"
             ],
             "source": "INSPIRE reference metadata",
@@ -179737,10 +179768,17 @@
           },
           {
             "identifiers": [
-              "arxiv:grqc/9703021"
+              "arxiv:gr-qc/9703021"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:15573"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
           },
           {
             "identifiers": [
