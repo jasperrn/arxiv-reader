@@ -96961,8 +96961,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-20T15:40:28.213070+00:00",
-        "checked_at": "2026-11-03T22:20:26.931592+00:00",
+        "bibliography_checked_at": "2026-11-04T13:02:17.242645+00:00",
+        "checked_at": "2026-11-04T13:02:17.242645+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -96975,7 +96975,7 @@
       "followed": false,
       "id": "2610.13377",
       "inspire_id": 3213713,
-      "metadata_checked_at": "2026-11-03T22:20:26.931592+00:00",
+      "metadata_checked_at": "2026-11-04T13:02:17.242645+00:00",
       "public_data": {
         "authors": [
           {
@@ -96987,7 +96987,7 @@
             "name": "Ortín, Tomás"
           }
         ],
-        "checked_at": "2026-11-03T22:20:26.931592+00:00",
+        "checked_at": "2026-11-04T13:02:17.242645+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -98448,6 +98448,22 @@
           },
           {
             "identifiers": [
+              "arxiv:hep-th/9802150",
+              "doi:10.4310/atmp.1998.v2.n2.a2"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-th/0508218",
+              "doi:10.1088/1126-6708/2006/01/022"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:0809.4033",
               "doi:10.1103/physrevd.79.024028"
             ],
@@ -98524,8 +98540,32 @@
           },
           {
             "identifiers": [
+              "arxiv:gr-qc/0507091",
+              "doi:10.1103/physrevd.73.024004"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2605.14668",
               "doi:10.1007/jhep09(2026)135"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1501.01053",
+              "doi:10.1007/s10714-016-2093-7"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1607.05986",
+              "doi:10.1007/978-3-319-51700-1_5"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -98666,6 +98706,14 @@
             "identifiers": [
               "arxiv:1608.06147",
               "doi:10.1088/1361-6382/aa5c69"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2209.09031",
+              "doi:10.1140/epjc/s10052-023-11335-y"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
