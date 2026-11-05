@@ -179423,8 +179423,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-31T16:08:45.346907+00:00",
-        "checked_at": "2026-11-03T12:50:48.547862+00:00",
+        "bibliography_checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "checked_at": "2026-11-05T13:15:48.253232+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -179437,7 +179437,7 @@
       "followed": false,
       "id": "2610.27903",
       "inspire_id": 3216650,
-      "metadata_checked_at": "2026-11-03T12:50:48.547862+00:00",
+      "metadata_checked_at": "2026-11-05T13:15:48.253232+00:00",
       "public_data": {
         "authors": [
           {
@@ -179453,7 +179453,7 @@
             "name": "Sinn, Rainer"
           }
         ],
-        "checked_at": "2026-11-03T12:50:48.547862+00:00",
+        "checked_at": "2026-11-05T13:15:48.253232+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -179464,7 +179464,23 @@
           },
           {
             "identifiers": [
-              "arxiv:1008.2785"
+              "arxiv:1008.2785",
+              "arxiv:1011.6658"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1011.6658"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1008.2785",
+              "arxiv:1011.6658"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -179501,8 +179517,7 @@
           },
           {
             "identifiers": [
-              "arxiv:2310.17727",
-              "inspire:2714847"
+              "inspire:1984890"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -179511,21 +179526,6 @@
             "identifiers": [
               "arxiv:2410.09574",
               "inspire:2839699"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2410.09574"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "arxiv:2606.03439",
-              "inspire:3164863"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -179541,13 +179541,6 @@
           {
             "identifiers": [
               "inspire:1671111"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2602.00847"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -179632,20 +179625,6 @@
           },
           {
             "identifiers": [
-              "arxiv:2602.00847"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2602.00847"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
               "arxiv:math/0609764",
               "inspire:1268732"
             ],
@@ -179669,14 +179648,6 @@
           {
             "identifiers": [
               "inspire:2757118"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2605.11909",
-              "inspire:3154827"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"

@@ -98644,9 +98644,9 @@
         "math.CO"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-04T13:02:17.242645+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "checked_at": "2026-11-05T13:15:48.253232+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -98659,7 +98659,7 @@
       "followed": false,
       "id": "2611.00864",
       "inspire_id": 3222185,
-      "metadata_checked_at": "2026-11-04T13:02:17.242645+00:00",
+      "metadata_checked_at": "2026-11-05T13:15:48.253232+00:00",
       "public_data": {
         "authors": [
           {
@@ -98675,7 +98675,7 @@
             "name": "Yu, Hongmiao"
           }
         ],
-        "checked_at": "2026-11-04T13:02:17.242645+00:00",
+        "checked_at": "2026-11-05T13:15:48.253232+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -98850,6 +98850,107 @@
               "doi:10.1007/jhep04(2021)253"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/978-3-642-55566-4%5f9",
+              "doi:10.1007/978-3-642-55566-4_9"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1006/aama.2001.0759"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.jalgebra.2015.10.008"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/bf01589496"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/s00440-006-0033-2"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1137/24m1671840"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1017/cbo9781139026833"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1204.1930"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.4418/2025.80.1.14"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.08252",
+              "doi:10.48550/arxiv.2610.08252"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1307/mmj/1571731287"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2509.25372"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1215/s0012-7094-05-13114-3"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/jhep04%282021%29253",
+              "doi:10.1007/jhep04(2021)253"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],
