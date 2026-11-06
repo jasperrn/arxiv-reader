@@ -41794,8 +41794,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-11-01T21:13:20.673128+00:00",
-        "checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "bibliography_checked_at": "2026-11-06T12:59:33.999655+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -41808,7 +41808,7 @@
       "followed": false,
       "id": "2610.39959",
       "inspire_id": 3220474,
-      "metadata_checked_at": "2026-11-05T13:15:48.253232+00:00",
+      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
       "public_data": {
         "authors": [
           {
@@ -41832,7 +41832,7 @@
             "name": "Putra, Bayu Adi Nugraha"
           }
         ],
-        "checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -94521,9 +94521,9 @@
         "physics.acc-ph"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-06T12:59:33.999655+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -94536,7 +94536,7 @@
       "followed": false,
       "id": "2610.40451",
       "inspire_id": 3220545,
-      "metadata_checked_at": "2026-11-05T13:15:48.253232+00:00",
+      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
       "public_data": {
         "authors": [
           {
@@ -94544,7 +94544,7 @@
             "name": "Piotrzkowski, K."
           }
         ],
-        "checked_at": "2026-11-05T13:15:48.253232+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -94638,6 +94638,75 @@
               "arxiv:2410.11367"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2504.00672"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2503.17727"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2403.17034",
+              "doi:10.1209/0295-5075/ad5e1a"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2504.00541",
+              "doi:10.1088/1361-6471/ae5728"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2405.19314",
+              "doi:10.1140/epjc/s10052-025-13923-6"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2410.11367",
+              "doi:10.1103/physrevlett.134.245001"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2201.06664",
+              "doi:10.1093/ptep/ptac059"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2010.15144",
+              "doi:10.1155/2021/6693618"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.35154"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],

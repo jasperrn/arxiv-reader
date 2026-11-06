@@ -38808,8 +38808,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-24T14:36:28.834235+00:00",
-        "checked_at": "2026-11-04T13:02:17.242645+00:00",
+        "bibliography_checked_at": "2026-11-06T12:59:33.999655+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -38822,7 +38822,7 @@
       "followed": false,
       "id": "2610.31254",
       "inspire_id": 3218141,
-      "metadata_checked_at": "2026-11-04T13:02:17.242645+00:00",
+      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
       "public_data": {
         "authors": [
           {
@@ -38858,7 +38858,7 @@
             "name": "Sestu, M."
           }
         ],
-        "checked_at": "2026-11-04T13:02:17.242645+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -39498,6 +39498,43 @@
           },
           {
             "identifiers": [
+              "inspire:2874154"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.37318",
+              "inspire:3219528"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.37318"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.37345",
+              "inspire:3219575"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.37345"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2606.16864",
               "inspire:3168702"
             ],
@@ -39510,13 +39547,6 @@
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:2874154"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
           },
           {
             "identifiers": [
@@ -39863,6 +39893,36 @@
           {
             "identifiers": [
               "arxiv:2208.11771"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.21523",
+              "inspire:3123573"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.21523"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.20061",
+              "inspire:3132398"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.20061"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -40271,14 +40331,28 @@
           },
           {
             "identifiers": [
-              "arxiv:2606.16864"
+              "doi:10.1103/n563-8v8d"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1103/n563-8v8d"
+              "arxiv:2610.37318"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.37345"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2606.16864"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -40487,6 +40561,22 @@
             "identifiers": [
               "arxiv:2208.11771",
               "doi:10.1103/physrevd.107.055019"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.21523",
+              "doi:10.1103/m6yl-nzd9"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2603.20061",
+              "doi:10.1140/epjc/s10052-026-15999-0"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -47071,7 +47161,7 @@
       "citation": {
         "bibliography": "HTML unavailable",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-11-02T23:54:28.293711+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -47084,19 +47174,19 @@
       "followed": false,
       "id": "2610.31458",
       "inspire_id": 3218179,
-      "metadata_checked_at": "2026-11-02T23:54:28.293711+00:00",
+      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
       "public_data": {
         "authors": [
           {
-            "id": "2513063",
-            "name": "Yaouanc, Alain Le"
+            "id": "982773",
+            "name": "Le Yaouanc, Alain"
           },
           {
             "id": "991821",
             "name": "Richard, François"
           }
         ],
-        "checked_at": "2026-11-02T23:54:28.293711+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -50104,7 +50194,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-11-02T23:54:28.293711+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -50117,7 +50207,7 @@
       "followed": false,
       "id": "2610.31666",
       "inspire_id": 3218194,
-      "metadata_checked_at": "2026-11-02T23:54:28.293711+00:00",
+      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
       "public_data": {
         "authors": [
           {
@@ -50141,7 +50231,7 @@
             "name": "Li, Yu-Feng"
           }
         ],
-        "checked_at": "2026-11-02T23:54:28.293711+00:00",
+        "checked_at": "2026-11-06T12:59:33.999655+00:00",
         "evidence": [
           {
             "identifiers": [
