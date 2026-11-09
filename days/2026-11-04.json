@@ -106338,9 +106338,9 @@
         "gr-qc"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-09T13:58:06.487568+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -106353,7 +106353,7 @@
       "followed": false,
       "id": "2611.04441",
       "inspire_id": 3222566,
-      "metadata_checked_at": "2026-11-07T20:56:34.560806+00:00",
+      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
       "public_data": {
         "authors": [
           {
@@ -106369,7 +106369,7 @@
             "name": "Liu, Lei-Hua"
           }
         ],
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "checked_at": "2026-11-09T13:58:06.487568+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -106637,6 +106637,52 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.38254",
+              "inspire:3220140"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.38254"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.09408",
+              "inspire:3179664"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.09408"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.12939",
+              "doi:10.1016/j.dark.2024.101422",
+              "inspire:1848472"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.12939"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1510.04038",
               "doi:10.1103/physrevd.93.023505",
               "inspire:1397802"
@@ -106711,6 +106757,22 @@
           {
             "identifiers": [
               "arxiv:0907.0427"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2105.03744",
+              "doi:10.1103/physrevd.103.123518",
+              "inspire:1862667"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2105.03744"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -106889,6 +106951,299 @@
               "arxiv:2003.13724"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2105.03744",
+              "doi:10.1103/physrevd.103.123518"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:astro-ph/9303001",
+              "doi:10.1103/physrevd.50.4807"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1810.02734",
+              "doi:10.1007/jhep04%282019%29087"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1804.00107",
+              "doi:10.1007/jhep06%282018%29029"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2007.01232",
+              "doi:10.21468/scipostphyscore.4.1.002"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1808.03105",
+              "doi:10.1007/jhep10%282018%29140"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1807.07075",
+              "doi:10.1103/physrevlett.122.081601"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1810.05151",
+              "doi:10.21468/scipostphys.6.3.034"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1707.08582",
+              "doi:10.1103/physrevlett.120.121602"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1107.3917",
+              "doi:10.1103/physrevd.84.083504"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:quant-ph/0701004",
+              "doi:10.26421/qic8.10-1"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.42.3413"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:0907.0427",
+              "doi:10.1103/physrevd.80.063523"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1001.1897",
+              "doi:10.1103/physrevd.81.123520"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1803.10638",
+              "doi:10.1007/jhep07%282018%29139"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2110.08356",
+              "doi:10.1103/physrevd.106.063510"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:gr-qc/0412126",
+              "doi:10.1103/physrevd.71.063536"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1707.08570",
+              "doi:10.1007/jhep10%282017%29107"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1310.5579",
+              "doi:10.1103/physrevd.88.123508"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1503.01579",
+              "doi:10.1103/physrevd.92.041302"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:gr-qc/9903017",
+              "doi:10.1016/s0370-2693%2899%2900736-4"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1105.5723",
+              "doi:10.1143/ptp.126.511"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1404.6096",
+              "doi:10.1103/physrevd.90.063527"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2012.04911",
+              "doi:10.1103/physrevd.103.063527"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.12939",
+              "doi:10.1016/j.dark.2024.101422"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.38254"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.09408"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2309.01595",
+              "doi:10.1016/j.physletb.2024.138728"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2401.09307",
+              "doi:10.1007/jhep04%282024%29123"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.12014",
+              "doi:10.1016/j.dark.2022.101123"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1510.04038",
+              "doi:10.1103/physrevd.93.023505"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2312.15766",
+              "doi:10.1088/1475-7516/2024/05/069"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:quant-ph/0502070",
+              "doi:10.26421/qic6.3-2"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2003.13724",
+              "doi:10.1016/j.nuclphysb.2020.115135"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:0806.4594",
+              "doi:10.1088/1475-7516/2008/09/019"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1008.2724",
+              "doi:10.1088/1475-7516/2010/11/024"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1804.09116",
+              "doi:10.1103/physrevd.98.083521"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],
@@ -149363,8 +149718,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-11-04T13:02:17.242645+00:00",
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-09T13:58:06.487568+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -149377,7 +149732,7 @@
       "followed": false,
       "id": "2610.34240",
       "inspire_id": 3218753,
-      "metadata_checked_at": "2026-11-07T20:56:34.560806+00:00",
+      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
       "public_data": {
         "authors": [
           {
@@ -149385,7 +149740,7 @@
             "name": "Arabi Ardehali, Arash"
           }
         ],
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "checked_at": "2026-11-09T13:58:06.487568+00:00",
         "evidence": [
           {
             "identifiers": [
