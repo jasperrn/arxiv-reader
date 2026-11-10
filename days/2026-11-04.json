@@ -30309,7 +30309,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-06T12:59:33.999655+00:00",
-        "checked_at": "2026-11-06T12:59:33.999655+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -30322,7 +30322,7 @@
       "followed": false,
       "id": "2611.05170",
       "inspire_id": 3222863,
-      "metadata_checked_at": "2026-11-06T12:59:33.999655+00:00",
+      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
       "public_data": {
         "authors": [
           {
@@ -30334,7 +30334,7 @@
             "name": "Liu, Qinrui"
           }
         ],
-        "checked_at": "2026-11-06T12:59:33.999655+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -60985,7 +60985,7 @@
       "citation": {
         "bibliography": null,
         "bibliography_checked_at": null,
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -60998,7 +60998,7 @@
       "followed": false,
       "id": "2606.26598",
       "inspire_id": 3172992,
-      "metadata_checked_at": "2026-11-07T20:56:34.560806+00:00",
+      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
       "public_data": {
         "authors": [
           {
@@ -61010,7 +61010,7 @@
             "name": "Zhu, Zhou-Run"
           }
         ],
-        "checked_at": "2026-11-07T20:56:34.560806+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -135593,7 +135593,7 @@
       "citation": {
         "bibliography": null,
         "bibliography_checked_at": null,
-        "checked_at": "2026-11-08T11:58:35.566893+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -135606,11 +135606,11 @@
       "followed": false,
       "id": "2611.04750",
       "inspire_id": 3222615,
-      "metadata_checked_at": "2026-11-08T11:58:35.566893+00:00",
+      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
       "public_data": {
         "authors": [
           {
-            "id": "1917719",
+            "id": "1272187",
             "name": "Chen, Deyou"
           },
           {
@@ -135618,7 +135618,7 @@
             "name": "Yang, Chuang"
           }
         ],
-        "checked_at": "2026-11-08T11:58:35.566893+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -135644,6 +135644,20 @@
           {
             "identifiers": [
               "inspire:1813032"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2513687"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2760037"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"

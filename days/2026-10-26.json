@@ -9896,9 +9896,9 @@
         "nucl-th"
       ],
       "citation": {
-        "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-10-26T11:11:09.097622+00:00",
-        "checked_at": "2026-11-08T21:12:57.188159+00:00",
+        "bibliography": null,
+        "bibliography_checked_at": null,
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -9911,7 +9911,7 @@
       "followed": false,
       "id": "2610.32715",
       "inspire_id": 3218459,
-      "metadata_checked_at": "2026-11-08T21:12:57.188159+00:00",
+      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
       "public_data": {
         "authors": [
           {
@@ -9943,7 +9943,7 @@
             "name": "Zhu, Hua Xing"
           }
         ],
-        "checked_at": "2026-11-08T21:12:57.188159+00:00",
+        "checked_at": "2026-11-10T13:31:40.535843+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -10769,21 +10769,6 @@
           },
           {
             "identifiers": [
-              "arxiv:2203.11601",
-              "inspire:2056998"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2203.11601"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
               "arxiv:hep-ph/0102278",
               "inspire:553406"
             ],
@@ -10853,6 +10838,21 @@
           {
             "identifiers": [
               "arxiv:2408.14693"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2203.11601",
+              "inspire:2056998"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2203.11601"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
