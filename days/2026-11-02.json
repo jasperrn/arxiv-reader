@@ -13187,9 +13187,9 @@
         "nucl-th"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-11T12:46:07.226198+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -13202,7 +13202,7 @@
       "followed": false,
       "id": "2610.41082",
       "inspire_id": 3221047,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-11T12:46:07.226198+00:00",
       "public_data": {
         "authors": [
           {
@@ -13218,8 +13218,58 @@
             "name": "Tolos, Laura"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "evidence": [],
+        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "evidence": [
+          {
+            "identifiers": [
+              "arxiv:2203.08084"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2203.08297"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2512.01640"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.02823"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.17850"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.03964"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.11637"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          }
+        ],
         "references_available": true,
         "stale": false
       },
