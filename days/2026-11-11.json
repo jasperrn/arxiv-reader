@@ -24782,9 +24782,9 @@
         "hep-ph"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-13T13:10:35.527225+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -24797,7 +24797,7 @@
       "followed": false,
       "id": "2611.13583",
       "inspire_id": 3227017,
-      "metadata_checked_at": "2026-11-11T12:46:07.226198+00:00",
+      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
       "public_data": {
         "authors": [
           {
@@ -24821,7 +24821,7 @@
             "name": "Thompson, William G."
           }
         ],
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-13T13:10:35.527225+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -121559,9 +121559,9 @@
         "hep-th"
       ],
       "citation": {
-        "bibliography": "HTML unavailable",
-        "bibliography_checked_at": "2026-11-11T12:46:07.226198+00:00",
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-13T13:10:35.527225+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -121574,7 +121574,7 @@
       "followed": false,
       "id": "2611.06616",
       "inspire_id": 3222788,
-      "metadata_checked_at": "2026-11-11T12:46:07.226198+00:00",
+      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
       "public_data": {
         "authors": [
           {
@@ -121586,7 +121586,7 @@
             "name": "Rastelli, Leonardo"
           }
         ],
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-13T13:10:35.527225+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -121837,6 +121837,140 @@
               "arxiv:1305.2523"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:1352172"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2822044"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:74899"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2507.23781"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2509.10364"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:q-alg/9509005"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-th/9410029"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:math/0502533"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:math/0406291"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:0712.4109",
+              "arxiv:1012.4193"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.00122"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.33348"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1610.05865"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2601.12017"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2606.27341"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1804.00017"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1409.0274"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1411.5272"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1305.2523"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],
