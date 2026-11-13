@@ -906,7 +906,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -919,7 +919,7 @@
       "followed": false,
       "id": "2611.05440",
       "inspire_id": 3222890,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
       "public_data": {
         "authors": [
           {
@@ -947,7 +947,7 @@
             "name": "Pang, Cheng-Qun"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -958,18 +958,10 @@
           },
           {
             "identifiers": [
-              "arxiv:2406.03156",
               "inspire:2794793"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2406.03156"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -2036,18 +2028,10 @@
           },
           {
             "identifiers": [
-              "arxiv:2201.00552",
               "inspire:1999635"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2201.00552"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -2074,6 +2058,21 @@
           {
             "identifiers": [
               "arxiv:1503.02995"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1102.4142",
+              "inspire:890210"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1102.4142"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -2129,6 +2128,13 @@
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:2914463"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
           },
           {
             "identifiers": [
@@ -2231,6 +2237,51 @@
           {
             "identifiers": [
               "arxiv:2608.07268"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1610.06727",
+              "inspire:1493847"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1610.06727"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1612.07782",
+              "inspire:1505630"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1612.07782"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.38022",
+              "inspire:3209343"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.38022"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -2357,6 +2408,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2602.19887",
+              "inspire:3122929"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.19887"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2207.06752",
               "inspire:2112393"
             ],
@@ -2381,6 +2447,21 @@
           {
             "identifiers": [
               "arxiv:2506.06652"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2502.15117",
+              "inspire:2893289"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2502.15117"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -4243,7 +4324,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -4256,7 +4337,7 @@
       "followed": false,
       "id": "2611.05463",
       "inspire_id": 3222932,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
       "public_data": {
         "authors": [
           {
@@ -4276,7 +4357,7 @@
             "name": "Plehn, Tilman"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -4509,6 +4590,21 @@
           {
             "identifiers": [
               "arxiv:2607.28761"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.12463",
+              "inspire:3190846"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.12463"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -17973,7 +18069,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -17986,16 +18082,12 @@
       "followed": false,
       "id": "2611.05872",
       "inspire_id": 3222990,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
       "public_data": {
         "authors": [
           {
             "id": "3222991",
             "name": "Yin, Yue-Mei"
-          },
-          {
-            "id": "1812062",
-            "name": "Yan, mao-jun"
           },
           {
             "id": "1041897",
@@ -18006,7 +18098,7 @@
             "name": "Deng, Cheng-Rong"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -62989,7 +63081,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -63002,7 +63094,7 @@
       "followed": false,
       "id": "2610.17787",
       "inspire_id": 3214522,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
       "public_data": {
         "authors": [
           {
@@ -63022,7 +63114,7 @@
             "name": "Ghosh, Snigdha"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -70232,7 +70324,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -70245,7 +70337,7 @@
       "followed": false,
       "id": "2611.03373",
       "inspire_id": 3222389,
-      "metadata_checked_at": "2026-11-09T13:58:06.487568+00:00",
+      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
       "public_data": {
         "authors": [
           {
@@ -70273,7 +70365,7 @@
             "name": "Kenzie, Matthew"
           }
         ],
-        "checked_at": "2026-11-09T13:58:06.487568+00:00",
+        "checked_at": "2026-11-13T22:41:17.121940+00:00",
         "evidence": [
           {
             "identifiers": [
