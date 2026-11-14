@@ -43,7 +43,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -56,7 +56,7 @@
       "followed": false,
       "id": "2610.33134",
       "inspire_id": 3218703,
-      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
+      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
       "public_data": {
         "authors": [
           {
@@ -84,7 +84,7 @@
             "name": "Tresp, Volker"
           }
         ],
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -127268,7 +127268,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-10T13:31:40.535843+00:00",
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -127281,7 +127281,7 @@
       "followed": false,
       "id": "2610.16968",
       "inspire_id": 3214429,
-      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
+      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
       "public_data": {
         "authors": [
           {
@@ -127325,7 +127325,7 @@
             "name": "Kristensen, Mikkel Theiss"
           }
         ],
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -158095,7 +158095,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -158108,7 +158108,7 @@
       "followed": false,
       "id": "2610.35798",
       "inspire_id": 3218773,
-      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
+      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
       "public_data": {
         "authors": [
           {
@@ -158116,7 +158116,7 @@
             "name": "McGovern, Joseph"
           }
         ],
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -162359,7 +162359,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-10T13:31:40.535843+00:00",
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -162372,7 +162372,7 @@
       "followed": false,
       "id": "2610.33883",
       "inspire_id": 3218871,
-      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
+      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
       "public_data": {
         "authors": [
           {
@@ -162384,7 +162384,7 @@
             "name": "Samanta, Rickmoy"
           }
         ],
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -162823,6 +162823,13 @@
           },
           {
             "identifiers": [
+              "inspire:1300538"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "inspire:1241751"
             ],
             "source": "INSPIRE reference metadata",
@@ -162845,6 +162852,20 @@
           {
             "identifiers": [
               "inspire:1599494"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2743096"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2751956"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -163196,6 +163217,13 @@
           },
           {
             "identifiers": [
+              "inspire:2173022"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "inspire:2699636"
             ],
             "source": "INSPIRE reference metadata",
@@ -163221,6 +163249,99 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:593908"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2803582"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2789534"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:3171517"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:412911"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:1778738"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2962249"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:750992"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2964032"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.14971",
+              "inspire:3191587"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.14971"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.19492",
+              "inspire:3182536"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2607.19492"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
@@ -179995,7 +180116,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-10T13:31:40.535843+00:00",
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -180008,7 +180129,7 @@
       "followed": false,
       "id": "2604.27066",
       "inspire_id": 3150545,
-      "metadata_checked_at": "2026-11-10T13:31:40.535843+00:00",
+      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
       "public_data": {
         "authors": [
           {
@@ -180020,7 +180141,7 @@
             "name": "Resnick, Daniel J."
           }
         ],
-        "checked_at": "2026-11-10T13:31:40.535843+00:00",
+        "checked_at": "2026-11-14T12:15:51.115174+00:00",
         "evidence": [
           {
             "identifiers": [
