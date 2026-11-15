@@ -39015,7 +39015,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-11T12:46:07.226198+00:00",
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -39028,7 +39028,7 @@
       "followed": false,
       "id": "2610.25423",
       "inspire_id": 3216300,
-      "metadata_checked_at": "2026-11-11T12:46:07.226198+00:00",
+      "metadata_checked_at": "2026-11-15T12:48:30.998118+00:00",
       "public_data": {
         "authors": [
           {
@@ -39044,7 +39044,7 @@
             "name": "Ko, Pyungwon"
           }
         ],
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -39109,7 +39109,6 @@
           {
             "identifiers": [
               "arxiv:2609.02823",
-              "doi:10.17182/hepdata.182472.v1",
               "inspire:3199115"
             ],
             "source": "INSPIRE reference metadata",
@@ -39117,8 +39116,37 @@
           },
           {
             "identifiers": [
-              "arxiv:2609.02823",
-              "doi:10.17182/hepdata.182472.v1"
+              "arxiv:2609.02823"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.01592",
+              "inspire:3198637"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.01592"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.32435",
+              "inspire:3208552"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.32435"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -39950,6 +39978,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.18234",
+              "inspire:3214561"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.18234"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2609.17412",
               "inspire:3204104"
             ],
@@ -40385,30 +40428,30 @@
           },
           {
             "identifiers": [
-              "arxiv:2509.19428",
-              "inspire:2973137"
+              "arxiv:1910.04311",
+              "inspire:1758456"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:2509.19428"
+              "arxiv:1910.04311"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "arxiv:1610.06933",
-              "inspire:1494020"
+              "arxiv:2605.12057",
+              "inspire:3154784"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:1610.06933"
+              "arxiv:2605.12057"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -40430,10 +40473,18 @@
           },
           {
             "identifiers": [
-              "inspire:1247197"
+              "arxiv:1610.06933",
+              "inspire:1494020"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1610.06933"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
@@ -40467,30 +40518,30 @@
           },
           {
             "identifiers": [
-              "arxiv:1910.04311",
-              "inspire:1758456"
+              "arxiv:2305.16169",
+              "inspire:2662585"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:1910.04311"
+              "arxiv:2305.16169"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "arxiv:2605.12057",
-              "inspire:3154784"
+              "arxiv:hep-ex/0306033",
+              "inspire:619171"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:2605.12057"
+              "arxiv:hep-ex/0306033"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -40630,6 +40681,28 @@
           },
           {
             "identifiers": [
+              "inspire:1247197"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.35737",
+              "inspire:3209000"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.35737"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2302.04281",
               "inspire:2630827"
             ],
@@ -40720,6 +40793,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2509.19428",
+              "inspire:2973137"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2509.19428"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1503.04858",
               "inspire:1353118"
             ],
@@ -40774,21 +40862,6 @@
           {
             "identifiers": [
               "arxiv:1406.2980"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "arxiv:1807.02691",
-              "inspire:1681433"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:1807.02691"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -156901,7 +156974,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-20T10:07:59.517336+00:00",
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -156914,7 +156987,7 @@
       "followed": false,
       "id": "2607.08747",
       "inspire_id": 3178763,
-      "metadata_checked_at": "2026-11-10T22:24:54.868681+00:00",
+      "metadata_checked_at": "2026-11-15T12:48:30.998118+00:00",
       "public_data": {
         "authors": [
           {
@@ -156926,7 +156999,7 @@
             "name": "Zhang, Kilar"
           }
         ],
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -161945,7 +162018,7 @@
       "citation": {
         "bibliography": "HTML unavailable",
         "bibliography_checked_at": "2026-10-20T10:07:59.517336+00:00",
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": false,
@@ -161958,7 +162031,7 @@
       "followed": false,
       "id": "2610.16708",
       "inspire_id": 3214354,
-      "metadata_checked_at": "2026-11-10T22:24:54.868681+00:00",
+      "metadata_checked_at": "2026-11-15T12:48:30.998118+00:00",
       "public_data": {
         "authors": [
           {
@@ -161966,7 +162039,7 @@
             "name": "Frampton, Paul H."
           }
         ],
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "evidence": [],
         "references_available": false,
         "stale": false
@@ -234242,7 +234315,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-20T10:07:59.517336+00:00",
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -234255,7 +234328,7 @@
       "followed": false,
       "id": "2609.17195",
       "inspire_id": 3203974,
-      "metadata_checked_at": "2026-11-10T22:24:54.868681+00:00",
+      "metadata_checked_at": "2026-11-15T12:48:30.998118+00:00",
       "public_data": {
         "authors": [
           {
@@ -234263,7 +234336,7 @@
             "name": "Rashkov, R.C."
           }
         ],
-        "checked_at": "2026-11-10T22:24:54.868681+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -247509,7 +247582,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-10-20T10:07:59.517336+00:00",
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -247522,7 +247595,7 @@
       "followed": false,
       "id": "2610.21574",
       "inspire_id": 3215557,
-      "metadata_checked_at": "2026-11-11T12:46:07.226198+00:00",
+      "metadata_checked_at": "2026-11-15T12:48:30.998118+00:00",
       "public_data": {
         "authors": [
           {
@@ -247538,7 +247611,7 @@
             "name": "Fu, Hai-Bing"
           }
         ],
-        "checked_at": "2026-11-11T12:46:07.226198+00:00",
+        "checked_at": "2026-11-15T12:48:30.998118+00:00",
         "evidence": [
           {
             "identifiers": [
