@@ -91420,9 +91420,9 @@
         "hep-ph"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-16T13:43:27.754373+00:00",
+        "checked_at": "2026-11-16T13:43:27.754373+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -91435,7 +91435,7 @@
       "followed": false,
       "id": "2611.16715",
       "inspire_id": 3228168,
-      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
+      "metadata_checked_at": "2026-11-16T13:43:27.754373+00:00",
       "public_data": {
         "authors": [
           {
@@ -91447,7 +91447,7 @@
             "name": "Dye, Stephen T."
           }
         ],
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-16T13:43:27.754373+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -91490,7 +91490,7 @@
           },
           {
             "identifiers": [
-              "inspire:2951257"
+              "doi:10.1126/science.1081518"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -91499,6 +91499,21 @@
             "identifiers": [
               "doi:10.1016/j.epsl.2012.11.001",
               "inspire:1121160"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:2951257"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.pepi.2019.106409",
+              "inspire:1727278"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -91519,8 +91534,7 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/j.pepi.2019.106409",
-              "inspire:1727278"
+              "doi:10.1016/j.tecto.2017.10.004"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -91541,6 +91555,7 @@
           },
           {
             "identifiers": [
+              "doi:10.1016/0031-9201(81)90046-7",
               "inspire:175521"
             ],
             "source": "INSPIRE reference metadata",
@@ -91576,6 +91591,13 @@
           },
           {
             "identifiers": [
+              "doi:10.1038/s41561-020-0599-9"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "doi:10.1002/jgrb.50156"
             ],
             "source": "INSPIRE reference metadata",
@@ -91584,13 +91606,6 @@
           {
             "identifiers": [
               "doi:10.1002/2013jb010626"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1016/j.tecto.2017.10.004"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -91616,6 +91631,259 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.gr.2011.03.006"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2022gl099566"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.101.012009"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2511.11856",
+              "doi:10.1103/mv5z-pfb7"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.5194/se-1-5-2010"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1126/science.1081518"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.epsl.2012.11.001"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1002/ggge.20129"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.pepi.2019.106409"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1002/2017gc007067"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1051/0004-6361/201833645"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.tecto.2017.10.004"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/s0009-2541(97)00150-2"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.epsl.2004.12.005"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2003gc000597"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.chemgeo.2009.12.010"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0031-9201(81)90046-7"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.epsl.2018.06.029"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s41561-022-00908-3"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2008jb005814"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2006jb004483"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2018gc007431"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s41598-017-11039-w"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1093/gji/ggw324"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s41598-025-88931-3"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s43247-025-02700-8"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2020gc009525"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1038/s41561-020-0599-9"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.epsl.2005.06.035"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1002/jgrb.50156"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1002/2013jb010626"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.gca.2011.01.024"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.epsl.2007.03.038"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1029/2012gc004334"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1144/sp318.4"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/j.gr.2011.03.006"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
           }
         ],
         "references_available": true,
