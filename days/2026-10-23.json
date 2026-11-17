@@ -29944,7 +29944,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -29957,7 +29957,7 @@
       "followed": false,
       "id": "2610.30773",
       "inspire_id": 3218076,
-      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -29969,7 +29969,7 @@
             "name": "Iascau, Joshua"
           }
         ],
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -47227,8 +47227,8 @@
       ],
       "citation": {
         "bibliography": "HTML unavailable",
-        "bibliography_checked_at": "2026-10-28T11:23:48.949040+00:00",
-        "checked_at": "2026-11-14T12:15:51.115174+00:00",
+        "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -47241,7 +47241,7 @@
       "followed": false,
       "id": "2610.31458",
       "inspire_id": 3218179,
-      "metadata_checked_at": "2026-11-14T12:15:51.115174+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -47253,7 +47253,7 @@
             "name": "Richard, François"
           }
         ],
-        "checked_at": "2026-11-14T12:15:51.115174+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -117516,7 +117516,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -117529,7 +117529,7 @@
       "followed": false,
       "id": "2610.30234",
       "inspire_id": 3217973,
-      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -117545,7 +117545,7 @@
             "name": "Martinek, Leandro"
           }
         ],
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -117657,7 +117657,6 @@
           },
           {
             "identifiers": [
-              "arxiv:1608.00253",
               "doi:10.1142/s0129055x17500027",
               "inspire:1478833"
             ],
@@ -117666,7 +117665,7 @@
           },
           {
             "identifiers": [
-              "arxiv:1608.00253"
+              "doi:10.1142/s0129055x17500027"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -117910,6 +117909,22 @@
           },
           {
             "identifiers": [
+              "arxiv:2411.17262",
+              "doi:10.21468/scipostphyslectnotes.130",
+              "inspire:2852193"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2411.17262"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1016/0370-2693(90)91891-e",
               "inspire:297031"
             ],
@@ -117949,7 +117964,6 @@
           },
           {
             "identifiers": [
-              "arxiv:2107.09345",
               "doi:10.1007/s00023-022-01154-4",
               "inspire:1888987"
             ],
@@ -117958,7 +117972,7 @@
           },
           {
             "identifiers": [
-              "arxiv:2107.09345"
+              "doi:10.1007/s00023-022-01154-4"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -118117,22 +118131,6 @@
           {
             "identifiers": [
               "arxiv:0905.4013"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "arxiv:2411.17262",
-              "doi:10.21468/scipostphyslectnotes.130",
-              "inspire:2852193"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:2411.17262"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -150758,7 +150756,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -150771,7 +150769,7 @@
       "followed": false,
       "id": "2610.31269",
       "inspire_id": 3218156,
-      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -150783,7 +150781,7 @@
             "name": "Zhu, W."
           }
         ],
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -151866,6 +151864,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.33972",
+              "inspire:3218867"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.33972"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1603.04436",
               "inspire:1427754"
             ],
@@ -151881,10 +151894,18 @@
           },
           {
             "identifiers": [
-              "inspire:12266"
+              "arxiv:2611.08102",
+              "inspire:3225472"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.08102"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
@@ -151897,6 +151918,21 @@
           {
             "identifiers": [
               "arxiv:2610.27926"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.10815",
+              "inspire:3226465"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.10815"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -160766,7 +160802,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-13T13:10:35.527225+00:00",
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -160779,7 +160815,7 @@
       "followed": false,
       "id": "2610.31653",
       "inspire_id": 3218215,
-      "metadata_checked_at": "2026-11-13T13:10:35.527225+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -160791,7 +160827,7 @@
             "name": "Tong, David"
           }
         ],
-        "checked_at": "2026-11-13T13:10:35.527225+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [

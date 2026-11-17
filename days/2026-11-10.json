@@ -191150,9 +191150,9 @@
         "math.MP"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -191165,7 +191165,7 @@
       "followed": false,
       "id": "2611.12483",
       "inspire_id": 3226247,
-      "metadata_checked_at": "2026-11-14T21:32:37.269936+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -191177,7 +191177,7 @@
             "name": "Lehečková, Tereza"
           }
         ],
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -191494,6 +191494,13 @@
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2511.01368"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
           }
         ],
         "references_available": true,
@@ -192330,9 +192337,9 @@
         "hep-th"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -192345,7 +192352,7 @@
       "followed": false,
       "id": "2611.12683",
       "inspire_id": 3226658,
-      "metadata_checked_at": "2026-11-14T21:32:37.269936+00:00",
+      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
       "public_data": {
         "authors": [
           {
@@ -192365,7 +192372,7 @@
             "name": "Zhang, Hongbao"
           }
         ],
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "checked_at": "2026-11-17T14:31:51.654596+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -192558,6 +192565,34 @@
               "arxiv:2611.03123"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.21672"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.22292"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.09816"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.03123"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],
