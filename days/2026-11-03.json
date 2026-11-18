@@ -12488,7 +12488,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-13T22:41:17.121940+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -12501,7 +12501,7 @@
       "followed": false,
       "id": "2611.00918",
       "inspire_id": 3221847,
-      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
+      "metadata_checked_at": "2026-11-18T14:07:59.171778+00:00",
       "public_data": {
         "authors": [
           {
@@ -12517,7 +12517,7 @@
             "name": "Argüelles, Carlos A."
           }
         ],
-        "checked_at": "2026-11-13T22:41:17.121940+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -25228,7 +25228,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-09T13:58:06.487568+00:00",
-        "checked_at": "2026-11-13T22:41:17.121940+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -25241,7 +25241,7 @@
       "followed": false,
       "id": "2611.01948",
       "inspire_id": 3222268,
-      "metadata_checked_at": "2026-11-13T22:41:17.121940+00:00",
+      "metadata_checked_at": "2026-11-18T14:07:59.171778+00:00",
       "public_data": {
         "authors": [
           {
@@ -25257,7 +25257,7 @@
             "name": "Zhang, Congcong"
           }
         ],
-        "checked_at": "2026-11-13T22:41:17.121940+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -58147,9 +58147,9 @@
         "physics.acc-ph"
       ],
       "citation": {
-        "bibliography": null,
-        "bibliography_checked_at": null,
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "bibliography": "HTML checked",
+        "bibliography_checked_at": "2026-11-18T14:07:59.171778+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -58162,7 +58162,7 @@
       "followed": false,
       "id": "2611.01117",
       "inspire_id": 3221884,
-      "metadata_checked_at": "2026-11-14T21:32:37.269936+00:00",
+      "metadata_checked_at": "2026-11-18T14:07:59.171778+00:00",
       "public_data": {
         "authors": [
           {
@@ -58174,7 +58174,7 @@
             "name": "Sultansoy, Saleh"
           }
         ],
-        "checked_at": "2026-11-14T21:32:37.269936+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -58747,6 +58747,178 @@
               "arxiv:hep-ph/0406039"
             ],
             "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:0805.3334"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2103.05419"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1206.2913"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2007.14491",
+              "arxiv:2503.17727"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2506.15445",
+              "doi:10.1093/ptep/ptag031"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2503.20475"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ph/9802219",
+              "doi:10.1063/1.56424"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ph/9911417"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1608.02190",
+              "arxiv:1704.03534"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2101.10476"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2107.02073",
+              "arxiv:2203.06258"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2206.00037"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1901.06150",
+              "arxiv:2303.08533",
+              "arxiv:2504.21417"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1905.05564"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1901.03047"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2201.06664",
+              "doi:10.1093/ptep/ptac059"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2403.17034",
+              "arxiv:2406.02647"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.35154"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2410.11367"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2605.25580"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1701.03426",
+              "arxiv:1703.04030"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1303.0845"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ph/0006144",
+              "arxiv:hep-ph/0406039"
+            ],
+            "source": "arXiv HTML bibliography",
             "status": "provisional"
           }
         ],
@@ -119125,8 +119297,8 @@
       ],
       "citation": {
         "bibliography": "HTML unavailable",
-        "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "bibliography_checked_at": "2026-11-18T14:07:59.171778+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -119139,7 +119311,7 @@
       "followed": false,
       "id": "2610.35818",
       "inspire_id": 3219126,
-      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
+      "metadata_checked_at": "2026-11-18T14:07:59.171778+00:00",
       "public_data": {
         "authors": [
           {
@@ -119155,7 +119327,7 @@
             "name": "Sugimoto, Shigeki"
           }
         ],
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-18T14:07:59.171778+00:00",
         "evidence": [
           {
             "identifiers": [
