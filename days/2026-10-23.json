@@ -47227,8 +47227,8 @@
       ],
       "citation": {
         "bibliography": "HTML unavailable",
-        "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "bibliography_checked_at": "2026-11-19T14:28:55.441895+00:00",
+        "checked_at": "2026-11-19T14:28:55.441895+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -47241,7 +47241,7 @@
       "followed": false,
       "id": "2610.31458",
       "inspire_id": 3218179,
-      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
+      "metadata_checked_at": "2026-11-19T14:28:55.441895+00:00",
       "public_data": {
         "authors": [
           {
@@ -47253,19 +47253,47 @@
             "name": "Richard, François"
           }
         ],
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-19T14:28:55.441895+00:00",
         "evidence": [
           {
             "identifiers": [
-              "arxiv:2609.21850",
-              "inspire:3205293"
+              "inspire:2098256"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:2609.21850"
+              "arxiv:2206.09997"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:2098256"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2206.09997"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2206.09997",
+              "inspire:2098256"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2206.09997"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -47362,15 +47390,15 @@
           },
           {
             "identifiers": [
-              "arxiv:hep-ph/0104002",
-              "inspire:554885"
+              "arxiv:hep-ph/0411254",
+              "inspire:664922"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:hep-ph/0104002"
+              "arxiv:hep-ph/0411254"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -47505,6 +47533,73 @@
           {
             "identifiers": [
               "arxiv:hep-ph/0305086"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.13405",
+              "inspire:1849059"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2102.13405"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1608.00526",
+              "inspire:1478822"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1608.00526"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.21850",
+              "inspire:3205293"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.21850"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:1924438"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1005.4315",
+              "inspire:856049"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1005.4315"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
