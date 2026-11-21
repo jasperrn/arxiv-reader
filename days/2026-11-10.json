@@ -195356,7 +195356,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-21T22:12:28.873469+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -195369,7 +195369,7 @@
       "followed": false,
       "id": "2611.12483",
       "inspire_id": 3226247,
-      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
+      "metadata_checked_at": "2026-11-21T22:12:28.873469+00:00",
       "public_data": {
         "authors": [
           {
@@ -195381,7 +195381,7 @@
             "name": "Lehečková, Tereza"
           }
         ],
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-21T22:12:28.873469+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -195595,7 +195595,21 @@
           },
           {
             "identifiers": [
-              "inspire:914988"
+              "inspire:194389"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:204694"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:586155"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -195635,62 +195649,6 @@
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:296850"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:475036"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:212559"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:94983"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:287857"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:741911"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:613621"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:2874735"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
           },
           {
             "identifiers": [
@@ -196543,7 +196501,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-17T14:31:51.654596+00:00",
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-21T22:12:28.873469+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -196556,7 +196514,7 @@
       "followed": false,
       "id": "2611.12683",
       "inspire_id": 3226658,
-      "metadata_checked_at": "2026-11-17T14:31:51.654596+00:00",
+      "metadata_checked_at": "2026-11-21T22:12:28.873469+00:00",
       "public_data": {
         "authors": [
           {
@@ -196576,8 +196534,15 @@
             "name": "Zhang, Hongbao"
           }
         ],
-        "checked_at": "2026-11-17T14:31:51.654596+00:00",
+        "checked_at": "2026-11-21T22:12:28.873469+00:00",
         "evidence": [
+          {
+            "identifiers": [
+              "inspire:80985"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
           {
             "identifiers": [
               "inspire:101338"
@@ -196587,7 +196552,7 @@
           },
           {
             "identifiers": [
-              "inspire:80985"
+              "inspire:81181"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -196688,6 +196653,13 @@
           },
           {
             "identifiers": [
+              "inspire:74670"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
               "inspire:528174"
             ],
             "source": "INSPIRE reference metadata",
@@ -196696,6 +196668,27 @@
           {
             "identifiers": [
               "inspire:553888"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:567304"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:611299"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:758528"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -196737,27 +196730,6 @@
           },
           {
             "identifiers": [
-              "inspire:567304"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:611299"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:758528"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
               "arxiv:2611.03123",
               "inspire:3222381"
             ],
@@ -196770,6 +196742,13 @@
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:3121669"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
           },
           {
             "identifiers": [
