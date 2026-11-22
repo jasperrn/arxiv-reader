@@ -103780,7 +103780,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-18T14:07:59.171778+00:00",
-        "checked_at": "2026-11-18T14:07:59.171778+00:00",
+        "checked_at": "2026-11-22T13:25:00.429233+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -103793,7 +103793,7 @@
       "followed": false,
       "id": "2611.14075",
       "inspire_id": 3227041,
-      "metadata_checked_at": "2026-11-18T14:07:59.171778+00:00",
+      "metadata_checked_at": "2026-11-22T13:25:00.429233+00:00",
       "public_data": {
         "authors": [
           {
@@ -103801,7 +103801,7 @@
             "name": "Lyu, Hong-Da"
           }
         ],
-        "checked_at": "2026-11-18T14:07:59.171778+00:00",
+        "checked_at": "2026-11-22T13:25:00.429233+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -104009,6 +104009,21 @@
           {
             "identifiers": [
               "arxiv:2202.04155"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.22314",
+              "inspire:3123930"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2602.22314"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -104285,6 +104300,36 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.30134",
+              "inspire:3217472"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.30134"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.30134",
+              "inspire:3217472"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.30134"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1303.1080",
               "inspire:1222536"
             ],
@@ -104405,15 +104450,30 @@
           },
           {
             "identifiers": [
-              "arxiv:2602.22314",
-              "inspire:3123930"
+              "arxiv:2609.20788",
+              "inspire:3204974"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:2602.22314"
+              "arxiv:2609.20788"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.26724",
+              "inspire:3206260"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.26724"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
