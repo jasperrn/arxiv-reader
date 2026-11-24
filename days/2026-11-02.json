@@ -38232,8 +38232,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-11-13T22:41:17.121940+00:00",
-        "checked_at": "2026-11-21T22:12:28.873469+00:00",
+        "bibliography_checked_at": "2026-11-24T15:56:51.372447+00:00",
+        "checked_at": "2026-11-24T15:56:51.372447+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -38246,7 +38246,7 @@
       "followed": false,
       "id": "2506.03271",
       "inspire_id": 2929331,
-      "metadata_checked_at": "2026-11-21T22:12:28.873469+00:00",
+      "metadata_checked_at": "2026-11-24T15:56:51.372447+00:00",
       "public_data": {
         "authors": [
           {
@@ -38258,7 +38258,7 @@
             "name": "Kost, Anson"
           }
         ],
-        "checked_at": "2026-11-21T22:12:28.873469+00:00",
+        "checked_at": "2026-11-24T15:56:51.372447+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -39711,6 +39711,13 @@
           },
           {
             "identifiers": [
+              "doi:10.1146/annurev-fluid-122109-160807"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1103/physrev.109.1441"
             ],
             "source": "arXiv HTML bibliography",
@@ -39754,6 +39761,13 @@
           {
             "identifiers": [
               "doi:10.1103/physrevlett.25.218"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/ydrn-np36"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
