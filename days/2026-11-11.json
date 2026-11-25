@@ -10700,7 +10700,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-16T13:43:27.754373+00:00",
-        "checked_at": "2026-11-20T23:07:30.686130+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -10713,7 +10713,7 @@
       "followed": false,
       "id": "2611.13403",
       "inspire_id": 3226993,
-      "metadata_checked_at": "2026-11-20T23:07:30.686130+00:00",
+      "metadata_checked_at": "2026-11-25T01:27:16.383250+00:00",
       "public_data": {
         "authors": [
           {
@@ -10721,7 +10721,7 @@
             "name": "Stotsky, Vyacheslav A."
           }
         ],
-        "checked_at": "2026-11-20T23:07:30.686130+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -28048,7 +28048,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-20T14:05:35.340893+00:00",
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -28061,7 +28061,7 @@
       "followed": false,
       "id": "2611.14388",
       "inspire_id": 3227273,
-      "metadata_checked_at": "2026-11-20T14:05:35.340893+00:00",
+      "metadata_checked_at": "2026-11-25T01:27:16.383250+00:00",
       "public_data": {
         "authors": [
           {
@@ -28069,8 +28069,166 @@
             "name": "Chvala, Ondrej"
           }
         ],
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "evidence": [
+          {
+            "identifiers": [
+              "inspire:694016"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ex/0510009",
+              "doi:10.1140/epjc/s2005-02391-9",
+              "inspire:694016"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ex/0510009",
+              "doi:10.1140/epjc/s2005-02391-9"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1004.1889",
+              "doi:10.1140/epjc/s10052-010-1328-0",
+              "inspire:851504"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1004.1889",
+              "doi:10.1140/epjc/s10052-010-1328-0"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1140/epjc/s10052-009-1172-2",
+              "inspire:818217"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1140/epjc/s10052-009-1172-2"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2006.02062",
+              "doi:10.1140/epjc/s10052-020-8381-0",
+              "inspire:1799187"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2006.02062",
+              "doi:10.1140/epjc/s10052-020-8381-0"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:1799187"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:1451787"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1604.07327",
+              "doi:10.1140/epjc/s10052-016-4363-7",
+              "inspire:1451787"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1604.07327",
+              "doi:10.1140/epjc/s10052-016-4363-7"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:84486"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(78)90344-9",
+              "inspire:135054"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(78)90344-9"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevc.67",
+              "inspire:612014"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevc.67"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2203.11601",
+              "doi:10.21468/scipostphyscodeb.8",
+              "inspire:2056998"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2203.11601",
+              "doi:10.21468/scipostphyscodeb.8"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
           {
             "identifiers": [
               "inspire:55970"
@@ -28080,37 +28238,118 @@
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevlett.23.1415",
-              "inspire:55175"
+              "doi:10.1103/physrev.188.2159",
+              "inspire:55970"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevlett.23.1415"
+              "doi:10.1103/physrev.188.2159"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1556/aph.17.2003.2-4.21",
-              "inspire:614520"
+              "inspire:60846"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1556/aph.17.2003.2-4.21"
+              "doi:10.1103/physrevlett.25.1140",
+              "inspire:60846"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.25.1140"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
+              "inspire:137229"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:137229"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(82)90142-0",
+              "inspire:177179"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(82)90142-0"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.29.675",
+              "inspire:75444"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.29.675"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ex/0405053",
               "inspire:638179"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-ex/0405053"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0370-2693(83)",
+              "inspire:190333"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0370-2693(83"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:27675"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -28124,15 +28363,15 @@
           },
           {
             "identifiers": [
-              "doi:10.1140/epjc/s10052-022-10591-8",
-              "inspire:2035214"
+              "arxiv:1210.6775",
+              "inspire:1193343"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1140/epjc/s10052-022-10591-8"
+              "arxiv:1210.6775"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -28154,64 +28393,7 @@
           },
           {
             "identifiers": [
-              "inspire:177179"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1140/epjcd/s2004-03-1678-x",
-              "inspire:665973"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1140/epjcd/s2004-03-1678-x"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1093/ptep/ptz044",
-              "inspire:1716147"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1093/ptep/ptz044"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:694016"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1017/cbo9780511975592"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1017/cbo9780511975592"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
+              "arxiv:hep-ph/9709499",
               "doi:10.1103/physrevd.57.3051",
               "inspire:449041"
             ],
@@ -28220,6 +28402,7 @@
           },
           {
             "identifiers": [
+              "arxiv:hepph/9709499",
               "doi:10.1103/physrevd.57.3051"
             ],
             "source": "INSPIRE unstructured reference",
@@ -28242,48 +28425,24 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-2693(92)90832-o",
-              "inspire:337839"
+              "doi:10.1017/cbo9780511975592"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-2693(92)90832-o"
+              "doi:10.1017/cbo9780511975592"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1007/bf02728177",
-              "inspire:3544"
+              "inspire:51288"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1007/bf02728177"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.2.2963",
-              "inspire:62320"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.2.2963"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -28302,146 +28461,23 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-1573(83)90010-8",
-              "inspire:180955"
+              "doi:10.1016/0370-2693(92)90832-o",
+              "inspire:337839"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-1573(83)90010-8"
+              "doi:10.1016/0370-2693(92)90832-o"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.59.114017",
-              "inspire:471074"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.59.114017"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.34.1121",
-              "inspire:102549"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.34.1121"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.34.1121"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:1451787"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:48317"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.12.163",
-              "inspire:98442"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevd.12.163"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.34.1286",
-              "inspire:1931"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.34.1286"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:123995"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:123995"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:137229"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:137229"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:51288"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:60846"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
           },
           {
             "identifiers": [
               "doi:10.1103/physrevlett",
-              "inspire:52768"
+              "inspire:62888"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -28449,6 +28485,97 @@
           {
             "identifiers": [
               "doi:10.1103/physrevlett"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:90037"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.6.1675",
+              "inspire:81935"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.6.1675"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.23.1415",
+              "inspire:55175"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.23.1415"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(76)",
+              "inspire:108220"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0550-3213(76"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2202.09137",
+              "doi:10.1140/epjc/s10052-022-10591-8",
+              "inspire:2035214"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2202.09137",
+              "doi:10.1140/epjc/s10052-022-10591-8"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:104710"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.3.2821",
+              "inspire:67598"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.3.2821"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -28470,13 +28597,6 @@
           },
           {
             "identifiers": [
-              "inspire:53005"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
               "arxiv:0708.1983",
               "inspire:758367"
             ],
@@ -28492,25 +28612,167 @@
           },
           {
             "identifiers": [
-              "inspire:27675"
+              "inspire:48317"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.6.1675",
-              "inspire:81935"
+              "arxiv:hep-ph/9805496",
+              "doi:10.1103/physrevd.59.114017",
+              "inspire:471074"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.6.1675"
+              "arxiv:hep-ph/9805496",
+              "doi:10.1103/physrevd.59.114017"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0370-1573(83)90010-8",
+              "inspire:180955"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1016/0370-1573(83)90010-8"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett",
+              "inspire:180458"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1206.1733",
+              "inspire:1117714"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1206.1733"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1206.1733",
+              "inspire:1117714"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1206.1733"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrev.120.1857",
+              "inspire:9375"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrev.120.1857"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.30.1343",
+              "inspire:81238"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevlett.30.1343"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:48753"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "inspire:48753"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.6.3306",
+              "inspire:82705"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.6.3306"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:52768"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:biblio/4806227"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:71688"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
           },
           {
             "identifiers": [
@@ -28544,7 +28806,6 @@
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd",
               "inspire:83034"
             ],
             "source": "INSPIRE reference metadata",
@@ -28552,69 +28813,10 @@
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.29.675",
-              "inspire:75444"
+              "inspire:123995"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.29.675"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett",
-              "inspire:71688"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
-          },
-          {
-            "identifiers": [
-              "inspire:169326"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:180458"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrev.120.1857",
-              "inspire:9375"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrev.120.1857"
-            ],
-            "source": "INSPIRE unstructured reference",
-            "status": "provisional"
           },
           {
             "identifiers": [
@@ -28625,30 +28827,62 @@
           },
           {
             "identifiers": [
-              "arxiv:1206.1733",
-              "inspire:1117714"
+              "arxiv:1901.06421",
+              "doi:10.1093/ptep/ptz044",
+              "inspire:1716147"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "arxiv:1206.1733"
+              "arxiv:1901.06421",
+              "doi:10.1093/ptep/ptz044"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.6.3306",
-              "inspire:82705"
+              "doi:10.1103/physrevd.12.163",
+              "inspire:98442"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.6.3306"
+              "doi:10.1103/physrevd.12.163"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.2.2963",
+              "inspire:62320"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.2.2963"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.83.012002",
+              "inspire:874954"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1103/physrevd.83.012002"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -28669,58 +28903,69 @@
           },
           {
             "identifiers": [
-              "inspire:104710"
+              "doi:10.1103/physrevlett.34.1286",
+              "inspire:1931"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevlett.25",
-              "inspire:62888"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevlett.25"
+              "doi:10.1103/physrevlett.34.1286"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "inspire:48753"
+              "arxiv:1306.0121",
+              "doi:10.1103/physrevc.92.034906",
+              "inspire:1236629"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "inspire:1399237"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "arxiv:biblio/4806227"
+              "arxiv:1306.0121",
+              "doi:10.1103/physrevc.92.034906"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.3.2821",
-              "inspire:67598"
+              "doi:10.1103/physrevlett.30.1346",
+              "inspire:81351"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.1103/physrevd.3.2821"
+              "doi:10.1103/physrevlett.30.1346"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "inspire:3544"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/bf02728177",
+              "inspire:3544"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "doi:10.1007/bf02728177"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -28734,114 +28979,73 @@
           },
           {
             "identifiers": [
-              "inspire:84486"
+              "inspire:169326"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "inspire:84486"
+              "doi:10.1103/physrevlett.34.1121",
+              "inspire:102549"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "inspire:851504"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:818217"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevc.92.034906",
-              "inspire:1236629"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "doi:10.1103/physrevc.92.034906"
+              "doi:10.1103/physrevlett.34.1121"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.21468/scipostphyscodeb.8",
-              "inspire:2056998"
+              "doi:10.1007/bf02754354"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "doi:10.21468/scipostphyscodeb.8"
+              "doi:10.1007/bf02754354"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "inspire:1799187"
+              "doi:10.1140/epjcd/s2004-03-1678-x",
+              "inspire:665973"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "inspire:1799187"
+              "doi:10.1140/epjcd/s2004-03-1678-x"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "doi:10.1556/aph.17.2003.2-4.21",
+              "inspire:614520"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
           },
           {
             "identifiers": [
-              "inspire:90037"
+              "doi:10.1556/aph.17.2003.2-4.21"
             ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
           },
           {
             "identifiers": [
-              "inspire:108220"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:135054"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:874954"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:190333"
-            ],
-            "source": "INSPIRE reference metadata",
-            "status": "confirmed"
-          },
-          {
-            "identifiers": [
-              "inspire:612014"
+              "inspire:53005"
             ],
             "source": "INSPIRE reference metadata",
             "status": "confirmed"
@@ -31460,7 +31664,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-20T14:05:35.340893+00:00",
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -31473,7 +31677,7 @@
       "followed": false,
       "id": "2611.13102",
       "inspire_id": 3226944,
-      "metadata_checked_at": "2026-11-20T14:05:35.340893+00:00",
+      "metadata_checked_at": "2026-11-25T01:27:16.383250+00:00",
       "public_data": {
         "authors": [
           {
@@ -31497,7 +31701,7 @@
             "name": "Tarancón-Álvarez, Pedro"
           }
         ],
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -31913,6 +32117,102 @@
           },
           {
             "identifiers": [
+              "arxiv:0806.0006",
+              "doi:10.1088/1126-6708/2009/02/018",
+              "inspire:787002"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:0806.0006"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1505.06992",
+              "doi:10.1007/jhep09(2015)010",
+              "inspire:1373350"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1505.06992"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1507.04870",
+              "doi:10.1007/jhep10(2015)078",
+              "inspire:1383701"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1507.04870"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2309.04033",
+              "doi:10.1103/physrevb.109.165153",
+              "inspire:2695431"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2309.04033"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2212.10410",
+              "doi:10.1103/physrevd.108.l081903",
+              "inspire:2715193"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2212.10410"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2312.08243",
+              "doi:10.1007/jhep05(2024)272",
+              "inspire:2736635"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2312.08243"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:1203.3544",
               "doi:10.1007/jhep09(2012)046",
               "inspire:1094066"
@@ -32193,6 +32493,70 @@
           {
             "identifiers": [
               "arxiv:hep-th/0011127"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-th/0507275",
+              "doi:10.1016/j.nuclphysb.2005.10.014",
+              "inspire:688443"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:hep-th/0507275"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1010.5748",
+              "doi:10.1016/j.physletb.2011.01.057",
+              "inspire:874591"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1010.5748"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2011.11509",
+              "doi:10.1103/physrevd.103.026008",
+              "inspire:1832496"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2011.11509"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:1102.5331",
+              "doi:10.1007/jhep06(2011)090",
+              "inspire:890735"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:1102.5331"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -85660,7 +86024,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-20T14:05:35.340893+00:00",
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -85673,7 +86037,7 @@
       "followed": false,
       "id": "2611.13071",
       "inspire_id": 3226910,
-      "metadata_checked_at": "2026-11-20T14:05:35.340893+00:00",
+      "metadata_checked_at": "2026-11-25T01:27:16.383250+00:00",
       "public_data": {
         "authors": [
           {
@@ -85681,7 +86045,7 @@
             "name": "Akella, Sriram"
           }
         ],
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -85820,6 +86184,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2610.27596",
+              "inspire:3216825"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2610.27596"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2007.01303",
               "inspire:1805125"
             ],
@@ -85940,6 +86319,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2608.02745",
+              "inspire:3187153"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2608.02745"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "arxiv:2609.04119",
               "inspire:3199660"
             ],
@@ -85949,6 +86343,21 @@
           {
             "identifiers": [
               "arxiv:2609.04119"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.13106",
+              "inspire:3202870"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.13106"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -86721,6 +87130,21 @@
           {
             "identifiers": [
               "arxiv:2510.18967"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.20951",
+              "inspire:3205128"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2609.20951"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
@@ -127314,7 +127738,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-20T14:05:35.340893+00:00",
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -127327,7 +127751,7 @@
       "followed": false,
       "id": "2611.14455",
       "inspire_id": 3227212,
-      "metadata_checked_at": "2026-11-20T14:05:35.340893+00:00",
+      "metadata_checked_at": "2026-11-25T01:27:16.383250+00:00",
       "public_data": {
         "authors": [
           {
@@ -127339,7 +127763,7 @@
             "name": "Chakrabarti, Sayan"
           }
         ],
-        "checked_at": "2026-11-20T14:05:35.340893+00:00",
+        "checked_at": "2026-11-25T01:27:16.383250+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -128057,6 +128481,36 @@
           {
             "identifiers": [
               "arxiv:gr-qc/9603020"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2605.22187",
+              "inspire:3158596"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2605.22187"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2501.16433",
+              "inspire:2873385"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2501.16433"
             ],
             "source": "INSPIRE unstructured reference",
             "status": "provisional"
