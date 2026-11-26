@@ -19903,7 +19903,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-05T13:15:48.253232+00:00",
-        "checked_at": "2026-11-21T13:31:31.446128+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -19916,7 +19916,7 @@
       "followed": false,
       "id": "2611.01533",
       "inspire_id": 3222201,
-      "metadata_checked_at": "2026-11-21T13:31:31.446128+00:00",
+      "metadata_checked_at": "2026-11-26T01:00:59.698657+00:00",
       "public_data": {
         "authors": [
           {
@@ -19924,7 +19924,7 @@
             "name": "Ping, Rong-Gang"
           }
         ],
-        "checked_at": "2026-11-21T13:31:31.446128+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -27044,7 +27044,7 @@
       "citation": {
         "bibliography": "HTML checked",
         "bibliography_checked_at": "2026-11-05T13:15:48.253232+00:00",
-        "checked_at": "2026-11-21T13:31:31.446128+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -27057,7 +27057,7 @@
       "followed": false,
       "id": "2611.02007",
       "inspire_id": 3222276,
-      "metadata_checked_at": "2026-11-21T13:31:31.446128+00:00",
+      "metadata_checked_at": "2026-11-26T01:00:59.698657+00:00",
       "public_data": {
         "authors": [
           {
@@ -27065,7 +27065,7 @@
             "name": "Abu-Ajamieh, Fayez"
           }
         ],
-        "checked_at": "2026-11-21T13:31:31.446128+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -195431,8 +195431,8 @@
       ],
       "citation": {
         "bibliography": "HTML checked",
-        "bibliography_checked_at": "2026-11-11T23:29:49.509926+00:00",
-        "checked_at": "2026-11-24T15:56:51.372447+00:00",
+        "bibliography_checked_at": "2026-11-26T01:00:59.698657+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "matches": [],
         "reason": "No tracked publications configured or resolved.",
         "references_available": true,
@@ -195445,7 +195445,7 @@
       "followed": false,
       "id": "2611.03217",
       "inspire_id": 3222395,
-      "metadata_checked_at": "2026-11-24T15:56:51.372447+00:00",
+      "metadata_checked_at": "2026-11-26T01:00:59.698657+00:00",
       "public_data": {
         "authors": [
           {
@@ -195453,7 +195453,7 @@
             "name": "Nakayama, Yu"
           }
         ],
-        "checked_at": "2026-11-24T15:56:51.372447+00:00",
+        "checked_at": "2026-11-26T01:00:59.698657+00:00",
         "evidence": [
           {
             "identifiers": [
@@ -195945,6 +195945,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2611.07011",
+              "inspire:3223936"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.07011"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1007/bf01214585",
               "inspire:215193"
             ],
@@ -196203,6 +196218,21 @@
           },
           {
             "identifiers": [
+              "arxiv:2611.03565",
+              "inspire:3222176"
+            ],
+            "source": "INSPIRE reference metadata",
+            "status": "confirmed"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.03565"
+            ],
+            "source": "INSPIRE unstructured reference",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1007/bf02748000"
             ],
             "source": "arXiv HTML bibliography",
@@ -196224,7 +196254,7 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2884%2990052-x"
+              "doi:10.1016/0550-3213(84)90052-x"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196238,28 +196268,28 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2887%2990348-8"
+              "doi:10.1016/0550-3213(87)90348-8"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-2693%2885%2990819-6"
+              "doi:10.1016/0370-2693(85)90819-6"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-2693%2885%2990818-4"
+              "doi:10.1016/0370-2693(85)90818-4"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1016/0370-2693%2885%2990817-2"
+              "doi:10.1016/0370-2693(85)90817-2"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196273,7 +196303,7 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2888%2990249-0"
+              "doi:10.1016/0550-3213(88)90249-0"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196281,7 +196311,7 @@
           {
             "identifiers": [
               "arxiv:0902.2790",
-              "doi:10.1007/jhep08%282011%29130"
+              "doi:10.1007/jhep08(2011)130"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196289,7 +196319,7 @@
           {
             "identifiers": [
               "arxiv:1007.0756",
-              "doi:10.1007/jhep08%282011%29127"
+              "doi:10.1007/jhep08(2011)127"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196297,7 +196327,7 @@
           {
             "identifiers": [
               "arxiv:1307.6562",
-              "doi:10.1007/jhep10%282013%29180"
+              "doi:10.1007/jhep10(2013)180"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196305,7 +196335,7 @@
           {
             "identifiers": [
               "arxiv:1312.0038",
-              "doi:10.1007/jhep05%282014%29091"
+              "doi:10.1007/jhep05(2014)091"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196313,7 +196343,7 @@
           {
             "identifiers": [
               "arxiv:1608.06241",
-              "doi:10.1007/jhep09%282018%29061"
+              "doi:10.1007/jhep09(2018)061"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196321,7 +196351,7 @@
           {
             "identifiers": [
               "arxiv:2604.01275",
-              "doi:10.1007/jhep09%282026%29029"
+              "doi:10.1007/jhep09(2026)029"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196329,7 +196359,7 @@
           {
             "identifiers": [
               "arxiv:2308.08725",
-              "doi:10.1007/jhep07%282024%29058"
+              "doi:10.1007/jhep07(2024)058"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196337,7 +196367,7 @@
           {
             "identifiers": [
               "arxiv:1510.02464",
-              "doi:10.1007/jhep08%282016%29056"
+              "doi:10.1007/jhep08(2016)056"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196345,7 +196375,7 @@
           {
             "identifiers": [
               "arxiv:1511.04065",
-              "doi:10.1007/jhep05%282017%29126"
+              "doi:10.1007/jhep05(2017)126"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196353,7 +196383,7 @@
           {
             "identifiers": [
               "arxiv:1610.05371",
-              "doi:10.1007/jhep05%282017%29112"
+              "doi:10.1007/jhep05(2017)112"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196376,7 +196406,7 @@
           {
             "identifiers": [
               "arxiv:1702.00423",
-              "doi:10.1007/jhep09%282018%29150"
+              "doi:10.1007/jhep09(2018)150"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196429,6 +196459,13 @@
           },
           {
             "identifiers": [
+              "arxiv:2611.07011"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
               "doi:10.1007/bf01214585"
             ],
             "source": "arXiv HTML bibliography",
@@ -196451,7 +196488,7 @@
           {
             "identifiers": [
               "arxiv:hep-th/9403141",
-              "doi:10.1016/0550-3213%2894%2900352-1"
+              "doi:10.1016/0550-3213(94)00352-1"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196459,7 +196496,7 @@
           {
             "identifiers": [
               "arxiv:hep-th/9506136",
-              "doi:10.1016/0550-3213%2896%2900351-3"
+              "doi:10.1016/0550-3213(96)00351-3"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196475,7 +196512,7 @@
           {
             "identifiers": [
               "arxiv:1502.02033",
-              "doi:10.1007/jhep06%282015%29174"
+              "doi:10.1007/jhep06(2015)174"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196489,14 +196526,14 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2891%2990375-8"
+              "doi:10.1016/0550-3213(91)90375-8"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2891%2990624-7"
+              "doi:10.1016/0550-3213(91)90624-7"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196519,7 +196556,7 @@
           },
           {
             "identifiers": [
-              "doi:10.1016/0550-3213%2888%2990603-7"
+              "doi:10.1016/0550-3213(88)90603-7"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196535,7 +196572,7 @@
           {
             "identifiers": [
               "arxiv:hep-th/9109050",
-              "doi:10.1016/0003-4916%2892%2990303-4"
+              "doi:10.1016/0003-4916(92)90303-4"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
@@ -196543,7 +196580,14 @@
           {
             "identifiers": [
               "arxiv:1406.4858",
-              "doi:10.1007/jhep11%282014%29109"
+              "doi:10.1007/jhep11(2014)109"
+            ],
+            "source": "arXiv HTML bibliography",
+            "status": "provisional"
+          },
+          {
+            "identifiers": [
+              "arxiv:2611.03565"
             ],
             "source": "arXiv HTML bibliography",
             "status": "provisional"
