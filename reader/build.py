@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from html import escape
 from importlib.resources import files
 from pathlib import Path
+import os
 import shutil
 from .arxiv import merge_papers
 from .storage import read_json, write_json
@@ -51,7 +52,13 @@ def build(config, state='state', output='site', *, public=False):
     for name in ('app.js', 'profile.js', 'style.css'):
         (output / name).write_text(assets.joinpath(name).read_text(encoding='utf-8'), encoding='utf-8')
     template = assets.joinpath('index.html').read_text(encoding='utf-8')
-    (output / 'index.html').write_text(template.replace('{{TITLE}}', escape(config['display']['title'])), encoding='utf-8')
+    repository = os.environ.get('GITHUB_REPOSITORY')
+    update_link = ''
+    if public and repository:
+        url = f'https://github.com/{escape(repository)}/actions/workflows/daily.yml'
+        update_link = f'<a class="update-link" href="{url}">Update on GitHub</a>'
+    page = template.replace('{{UPDATE_LINK}}', update_link).replace('{{TITLE}}', escape(config['display']['title']))
+    (output / 'index.html').write_text(page, encoding='utf-8')
     (output / '.nojekyll').touch()
     return manifest
 

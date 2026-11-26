@@ -62,7 +62,7 @@ These settings control the host collector or private Python run, not the public 
 | `max_bibliographies_per_run` | `20` | HTML check budget; integer 1–1000. Use `bibliography_check: false` to disable. |
 | `user_agent` | `arxiv-daily-reader/1.0 (personal research reader)` | Nonempty single-line HTTP identification. Optionally include a contact address you are comfortable making public. |
 
-Large category lists may exceed the request budget; increase it only within reasonable run time and source-service limits. Requests are serial: at least 3.1 seconds apart across arXiv hosts and 0.4 seconds apart for INSPIRE. Retries respect `Retry-After`, use backoff, and defer long waits to the next scheduled run. A host that remains unavailable after retries is not hammered for every remaining paper. Missing HTTP 404 results are cached too.
+Large category lists may exceed the request budget; increase it only within reasonable run time and source-service limits. Requests are serial: at least 3.1 seconds apart across arXiv hosts and 0.4 seconds apart for INSPIRE. Retries respect `Retry-After`, use backoff, and defer long waits to the next requested update. A host that remains unavailable after retries is not hammered for every remaining paper. Missing HTTP 404 results are cached too.
 
 RSS responses cache for one hour, HTML identifier extracts for seven days, and missing HTML for one day. The archive itself has no expiry; unused HTTP cache entries older than 90 days are pruned from the current data tree (Git history remains).
 

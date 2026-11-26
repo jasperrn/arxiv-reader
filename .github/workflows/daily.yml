@@ -1,17 +1,15 @@
 name: Update and publish reader
 on:
-  schedule:
-    # Feed collection plus retries; UTC, away from the top-of-hour rush.
-    - cron: '23 5,11,17 * * *'
   workflow_dispatch:
     inputs:
       recheck_all:
         description: Recheck older papers too (normal request budget still applies)
         type: boolean
         default: false
-  push:
-    branches: [main]
-    paths-ignore: ['docs/**', 'LICENSE', 'CONTRIBUTING.md']
+      publish_only:
+        description: Republish the saved archive without fetching papers
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -40,6 +38,7 @@ jobs:
         run: python scripts/archive.py load
       - name: Capture announcements and recheck citations
         id: update
+        if: ${{ !inputs.publish_only }}
         continue-on-error: true
         env:
           RECHECK_ALL: ${{ inputs.recheck_all }}

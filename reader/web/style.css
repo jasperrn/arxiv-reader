@@ -4,3 +4,7 @@
 @media(prefers-reduced-motion:no-preference){button,a{transition:background-color .12s,color .12s}}
 
 [hidden]{display:none!important}.private-settings{padding:14px 18px;margin-bottom:18px;border:1px solid var(--line);background:var(--wash);font:13px/1.6 system-ui,sans-serif}.private-settings summary{cursor:pointer;color:var(--link)}.private-settings form label{display:block;margin-top:12px}.private-settings input[type=text],.private-settings textarea{box-sizing:border-box;width:100%;padding:8px;border:1px solid #babdb6;border-radius:3px;font:14px/1.5 system-ui,sans-serif;background:white}.private-settings form button{margin-top:12px}.private-settings button{font-size:12px}.abstract p,h3,.authors,.evidence{overflow-wrap:anywhere}
+
+.archive-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.update-link { display: inline-block; padding: 8px 12px; border: 1px solid var(--line); border-radius: 3px; font: 14px system-ui, sans-serif; text-decoration: none; }
+.update-link:hover { background: var(--wash); }

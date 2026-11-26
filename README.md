@@ -127,11 +127,11 @@ The host may edit public category/display/update defaults in `config.example.yam
 
 ## Updates, storage, and recovery
 
-The workflow runs at **05:23, 11:23, and 17:23 UTC** every day and supports manual execution. It captures announcements, rechecks general citation metadata, commits the public archive/cache, builds the site, validates it, and deploys. The archive is saved before deployment, so deployment failure does not lose collected listings.
+To update the hosted archive, click **Update on GitHub** in the reader header. Sign in with write access to the repository, select **Run workflow**, leave the defaults, and confirm. Updates run only on request. It captures announcements, rechecks general citation metadata, commits the public archive/cache, builds the site, validates it, and deploys. The archive is saved before deployment, so deployment failure does not lose collected listings.
 
 Default budgets: a 30-day recheck window, 400 papers and 20 HTML bibliography checks per run. Unchecked/least-recently-attempted records receive priority. Successful response caches last 24 hours, missing-record caches six hours. HTML checks have their own rotating budget. Each visitor's bibliography is cached separately in that visitor's browser.
 
-GitHub schedules are best-effort and can be delayed; inactive public repositories can have schedules disabled after 60 days. Monitor the site's timestamp and Actions runs. Recheck older records with the manual workflow's `recheck_all` input, or:
+After the run finishes, reload the reader. The **Republish the saved archive without fetching papers** option is for publishing changes to the website using existing data. Recheck older records with the manual workflow's `recheck_all` input, or:
 
 ```bash
 python -m reader --config config.example.yaml update --public --recheck-all
